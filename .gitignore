@@ -12,6 +12,7 @@
 bin/
 gen/
 out/
+proguard_logs/
 
 # Gradle files
 .gradle/

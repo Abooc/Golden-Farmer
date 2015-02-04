@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.lee.android.util.Log;
 import org.lee.android.util.Toast;
 
 import java.util.ArrayList;
