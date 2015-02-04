@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/Start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="上班09:00:00始"
+                android:inputType="number"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/End"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="下班24:00:00止"
+                android:inputType="datetime"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:id="@+id/Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Add"
+                android:padding="6dp"
+                android:drawableLeft="@android:drawable/ic_menu_add"
+                android:background="@android:drawable/list_selector_background" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Go"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="OK"
+            android:padding="6dp"
+            android:background="@android:drawable/list_selector_background" />
+
+        <TextView
+            android:id="@+id/Message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="记录:"
+            android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/Show"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="自助对账单"
+            android:padding="6dp" />
+        <TextView
+            android:id="@+id/Show2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="总共加班累计：0(/小时)"
+            android:padding="6dp" />
+    </LinearLayout>
+</ScrollView>
