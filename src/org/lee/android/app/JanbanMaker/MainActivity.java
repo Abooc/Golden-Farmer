@@ -13,7 +13,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.lee.android.util.Log;
 import org.lee.android.util.Toast;
 
 import java.util.ArrayList;
@@ -26,20 +25,19 @@ public class MainActivity extends Activity implements View.OnClickListener
     private EditText mStartEdit;
     private EditText mEndEdit;
 
-
     private ArrayList<String> arrayList = new ArrayList<String>();
 
     private boolean removeOnStartText;
     private boolean removeOnEndText;
+    private View mResultLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_main);
 
         init();
     }
-
 
     private void init() {
         mMessageText = (TextView) findViewById(R.id.Message);
@@ -47,7 +45,6 @@ public class MainActivity extends Activity implements View.OnClickListener
         mStartEdit = (EditText) findViewById(R.id.Start);
         mEndEdit = (EditText) findViewById(R.id.End);
         findViewById(R.id.Add).setOnClickListener(this);
-        findViewById(R.id.Go).setOnClickListener(this);
 
         mStartEdit.setOnEditorActionListener(this);
         mEndEdit.setOnEditorActionListener(this);
@@ -55,6 +52,7 @@ public class MainActivity extends Activity implements View.OnClickListener
         mEndEdit.addTextChangedListener(iEndTextWatcher);
 
         findViewById(R.id.Content).setOnTouchListener(this);
+        mResultLayout = findViewById(R.id.ResultLayout);
 
     }
 
@@ -67,10 +65,11 @@ public class MainActivity extends Activity implements View.OnClickListener
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.OK:
-                OK();
+            case R.id.Share:
+                Toast.show("建设中...");
                 break;
             case R.id.Clear:
+                mResultLayout.setVisibility(View.GONE);
                 arrayList.clear();
                 break;
         }
@@ -83,9 +82,6 @@ public class MainActivity extends Activity implements View.OnClickListener
             case R.id.Start:
                 mEndEdit.requestFocus();
                 return true;
-            case R.id.End:
-                findViewById(R.id.Go).performClick();
-                return true;
         }
         return true;
     }
@@ -94,29 +90,29 @@ public class MainActivity extends Activity implements View.OnClickListener
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.Add:
-                add();
-                break;
-            case R.id.Go:
-                OK();
+                boolean isAdded = add();
+                if(isAdded)
+                    OK();
                 break;
         }
     }
 
-    private void add(){
+    private boolean add(){
         String start = mStartEdit.getText().toString().trim();
         String end = mEndEdit.getText().toString().trim();
         if (TextUtils.isEmpty(start) || TextUtils.isEmpty(end)) {
-            Toast.show("你傻呀,没开始没结束咋计算？");
-            return;
+            Toast.show("开始和结束时间必须填写！");
+            return false;
         }
         arrayList.add(start + ">" + end);
 
-        String records = toShow(arrayList);
-        mMessageText.setText("加班记录：\n" + records);
+//        String records = toShow(arrayList);
+//        mMessageText.setText("加班记录：\n" + records);
 
         mEndEdit.setText(null);
         mStartEdit.setText(null);
         mStartEdit.requestFocus();
+        return true;
     }
 
     private void OK(){
@@ -136,13 +132,13 @@ public class MainActivity extends Activity implements View.OnClickListener
 
         String show = iCalculator.toShow();
         mShowText.setText(show);
+        mResultLayout.setVisibility(View.VISIBLE);
     }
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
-        Log.anchor();
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            AppFunction.hideInputMethod(this, getWindow().getDecorView());
+            AppFunction.hideInputMethod(this, mResultLayout);
             return true;
         }
         return false;
