@@ -73,6 +73,9 @@ public class MainActivity extends Activity implements View.OnClickListener
                 mResultLayout.setVisibility(View.GONE);
                 arrayList.clear();
                 break;
+            case R.id.About:
+                AboutActivity.launch(this);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
