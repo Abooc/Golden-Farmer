@@ -1,4 +1,4 @@
-package org.lee.android.app.JanbanMaker;
+package org.lee.android.app.JanbanMaker.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,12 +6,16 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+
+import org.lee.android.app.JanbanMaker.R;
+import org.lee.android.util.Toast;
 
 /**
  * Created by dayu on 15-2-4.
  */
-public class AboutActivity extends Activity {
+public class AboutActivity extends Activity implements View.OnClickListener{
 
     public static void launch(Context context){
         Intent intent = new Intent(context, AboutActivity.class);
@@ -32,6 +36,13 @@ public class AboutActivity extends Activity {
         String versionName = getVersionName(this);
         TextView textView = (TextView) findViewById(R.id.VersionCode);
         textView.setText(versionName + "(build:" + versionCode + ")");
+
+        findViewById(R.id.Update).setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        Toast.show("建设中...");
     }
 
     public static String getVersionName(Context context) {

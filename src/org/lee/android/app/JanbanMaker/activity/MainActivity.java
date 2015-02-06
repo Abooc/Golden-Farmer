@@ -1,4 +1,4 @@
-package org.lee.android.app.JanbanMaker;
+package org.lee.android.app.JanbanMaker.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,7 +13,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.lee.android.util.Log;
+import org.lee.android.app.JanbanMaker.AppFunction;
+import org.lee.android.app.JanbanMaker.common.JiabanCalculator;
+import org.lee.android.app.JanbanMaker.R;
 import org.lee.android.util.Toast;
 
 import java.util.ArrayList;

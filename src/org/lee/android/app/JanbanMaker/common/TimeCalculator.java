@@ -1,4 +1,4 @@
-package org.lee.android.app.JanbanMaker;
+package org.lee.android.app.JanbanMaker.common;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
