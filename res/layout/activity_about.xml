@@ -67,7 +67,7 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="?android:actionBarSize"
-        android:alpha="0.5">
+        android:alpha="0.3">
 
         <TextView
             android:layout_width="match_parent"
@@ -76,7 +76,7 @@
             android:gravity="center"
             android:text="Copyright ©2015"
             android:textSize="12sp"
-            android:textStyle="italic"
+            android:textStyle="italic|bold"
             android:background="@android:drawable/list_selector_background" />
 
         <TextView
@@ -91,7 +91,7 @@
             android:gravity="center"
             android:text="版权所有！"
             android:textSize="12sp"
-            android:textStyle="italic"
+            android:textStyle="italic|bold"
             android:background="@android:drawable/list_selector_background" />
     </LinearLayout>
 </LinearLayout>

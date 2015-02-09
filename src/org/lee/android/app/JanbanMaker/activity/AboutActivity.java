@@ -9,6 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
+import org.lee.android.app.JanbanMaker.AppApplication;
 import org.lee.android.app.JanbanMaker.R;
 import org.lee.android.util.Toast;
 
@@ -27,6 +31,17 @@ public class AboutActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         getActionBar().setDisplayShowHomeEnabled(false);
         setContentView(R.layout.activity_about);
+
+
+
+        Tracker t = ((AppApplication)getApplication()).getTracker(
+                AppApplication.TrackerName.GLOBAL_TRACKER);
+        // Set screen name.
+        // Where path is a String representing the screen name.
+        t.setScreenName("AboutActivity");
+
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
 
         init();
     }

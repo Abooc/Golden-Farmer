@@ -13,6 +13,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
+import org.lee.android.app.JanbanMaker.AppApplication;
 import org.lee.android.app.JanbanMaker.AppFunction;
 import org.lee.android.app.JanbanMaker.common.JiabanCalculator;
 import org.lee.android.app.JanbanMaker.R;
@@ -38,6 +42,19 @@ public class MainActivity extends Activity implements View.OnClickListener
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        Tracker t = ((AppApplication)getApplication()).getTracker(
+                AppApplication.TrackerName.APP_TRACKER);
+        // Set screen name.
+        // Where path is a String representing the screen name.
+        t.setScreenName("MainActivity");
+
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
+
+
+
 
         init();
     }
@@ -111,9 +128,6 @@ public class MainActivity extends Activity implements View.OnClickListener
             return false;
         }
         arrayList.add(start + ">" + end);
-
-//        String records = toShow(arrayList);
-//        mMessageText.setText("加班记录：\n" + records);
 
         mEndEdit.setText(null);
         mStartEdit.setText(null);
