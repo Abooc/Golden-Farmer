@@ -17,7 +17,11 @@ import org.lee.android.app.JanbanMaker.R;
 import org.lee.android.util.Toast;
 
 /**
- * Created by dayu on 15-2-4.
+ * Created by author:李瑞宇
+ * email:allnet@live.cn
+ * on 14-09-05.
+ *
+ * 关于页面
  */
 public class AboutActivity extends Activity implements View.OnClickListener{
 
@@ -55,6 +59,10 @@ public class AboutActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.Update).setOnClickListener(this);
     }
 
+    /**
+     * 检查更新事件
+     * @param v
+     */
     @Override
     public void onClick(View v) {
         Toast.show("建设中...");

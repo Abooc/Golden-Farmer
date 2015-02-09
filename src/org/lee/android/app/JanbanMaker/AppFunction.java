@@ -8,7 +8,11 @@ import android.content.Intent.ShortcutIconResource;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-
+/**
+ * Created by author:李瑞宇
+ * email:allnet@live.cn
+ * on 14-09-05.
+ */
 public class AppFunction {
 	/**
 	 * 为程序创建桌面快捷方式。

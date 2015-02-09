@@ -4,6 +4,12 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Created by author:李瑞宇
+ * email:allnet@live.cn
+ * on 14-09-05.
+ *
+ */
 public class TimeCalculator {
 
 	public static void main(String[] args) {

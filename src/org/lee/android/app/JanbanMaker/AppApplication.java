@@ -10,7 +10,10 @@ import org.lee.android.util.Toast;
 import java.util.HashMap;
 
 /**
- * Created by dayu on 14-11-3.
+ * Created by author:李瑞宇
+ * email:allnet@live.cn
+ * on 14-09-05.
+ *
  */
 public class AppApplication extends Application {
 

@@ -7,8 +7,11 @@ import java.util.Date;
 import java.util.List;
 
 /**
+ * Created by author:李瑞宇
+ * email:allnet@live.cn
+ * on 14-09-05.
+ *
  * 加班计算器
- * @author allnet@live.cn
  */
 public class JiabanCalculator {
 

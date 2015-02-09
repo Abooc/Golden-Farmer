@@ -18,12 +18,20 @@ import com.google.android.gms.analytics.Tracker;
 
 import org.lee.android.app.JanbanMaker.AppApplication;
 import org.lee.android.app.JanbanMaker.AppFunction;
-import org.lee.android.app.JanbanMaker.common.JiabanCalculator;
 import org.lee.android.app.JanbanMaker.R;
+import org.lee.android.app.JanbanMaker.common.JiabanCalculator;
 import org.lee.android.util.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 
+/**
+ * Created by author:李瑞宇
+ * email:allnet@live.cn
+ * on 14-09-05.
+ * <p/>
+ * 农夫计算器主界面
+ */
 public class MainActivity extends Activity implements View.OnClickListener
         , View.OnTouchListener, TextView.OnEditorActionListener {
 
@@ -44,7 +52,7 @@ public class MainActivity extends Activity implements View.OnClickListener
         setContentView(R.layout.activity_main);
 
 
-        Tracker t = ((AppApplication)getApplication()).getTracker(
+        Tracker t = ((AppApplication) getApplication()).getTracker(
                 AppApplication.TrackerName.APP_TRACKER);
         // Set screen name.
         // Where path is a String representing the screen name.
@@ -52,8 +60,6 @@ public class MainActivity extends Activity implements View.OnClickListener
 
         // Send a screen view.
         t.send(new HitBuilders.AppViewBuilder().build());
-
-
 
 
         init();
@@ -71,11 +77,18 @@ public class MainActivity extends Activity implements View.OnClickListener
         mStartEdit.addTextChangedListener(iStartTextWatcher);
         mEndEdit.addTextChangedListener(iEndTextWatcher);
 
+        /** 除编辑框和按钮之外区域，设置Touch事件收起键盘 */
         findViewById(R.id.Content).setOnTouchListener(this);
         mResultLayout = findViewById(R.id.ResultLayout);
 
     }
 
+    /**
+     * 添加应用标题栏菜单
+     *
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
@@ -85,22 +98,33 @@ public class MainActivity extends Activity implements View.OnClickListener
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.Share:
+            case R.id.Share://分享功能增在建设中
                 Toast.show("建设中...");
                 break;
-            case R.id.Clear:
+            case R.id.Clear://清空当前操作记录，便于重新开始一个计算
                 mResultLayout.setVisibility(View.GONE);
                 arrayList.clear();
                 break;
-            case R.id.About:
+            case R.id.About://跳转到关于页面
                 AboutActivity.launch(this);
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * 用于开始时间编辑框快速切换到下一个编辑框
+     *
+     * @param textView 开始时间编辑框
+     * @param actionId Identifier of the action.  This will be either the
+     *                 identifier you supplied, or {@link android.view.inputmethod.EditorInfo#IME_NULL
+     *                 EditorInfo.IME_NULL} if being called due to the enter key
+     *                 being pressed.
+     * @param keyEvent
+     * @return
+     */
     @Override
-    public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
+    public boolean onEditorAction(TextView textView, int actionId, KeyEvent keyEvent) {
         switch (textView.getId()) {
             case R.id.Start:
                 mEndEdit.requestFocus();
@@ -109,18 +133,28 @@ public class MainActivity extends Activity implements View.OnClickListener
         return true;
     }
 
+    /**
+     * 添加一条时间记录，并进行计算事件
+     *
+     * @param view
+     */
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.Add:
                 boolean isAdded = add();
-                if(isAdded)
+                if (isAdded)
                     OK();
                 break;
         }
     }
 
-    private boolean add(){
+    /**
+     * 将时间记录添加到记录缓存集合
+     *
+     * @return
+     */
+    private boolean add() {
         String start = mStartEdit.getText().toString().trim();
         String end = mEndEdit.getText().toString().trim();
         if (TextUtils.isEmpty(start) || TextUtils.isEmpty(end)) {
@@ -135,7 +169,10 @@ public class MainActivity extends Activity implements View.OnClickListener
         return true;
     }
 
-    private void OK(){
+    /**
+     * 遍历时间记录缓存集合，进行计算
+     */
+    private void OK() {
         AppFunction.hideInputMethod(this, getWindow().getDecorView());
         JiabanCalculator iCalculator = new JiabanCalculator();
 
@@ -155,6 +192,13 @@ public class MainActivity extends Activity implements View.OnClickListener
         mResultLayout.setVisibility(View.VISIBLE);
     }
 
+    /**
+     * 除编辑框和按钮之外区域，设置Touch事件收起键盘
+     *
+     * @param v     除编辑框和按钮之外区域
+     * @param event
+     * @return
+     */
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -164,16 +208,21 @@ public class MainActivity extends Activity implements View.OnClickListener
         return false;
     }
 
+    /**
+     * 开始时间的时间输入自动匹配器
+     */
     private TextWatcher iStartTextWatcher = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-//                Log.anchor(s.toString() + ", start:" + start + ", count:" + count + ", after:" + after);
+            //测试日志
+//            Log.anchor(s.toString() + ", start:" + start + ", count:" + count + ", after:" + after);
             removeOnStartText = after == 0 && s.toString().endsWith(":");
         }
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-//                Log.anchor(s.toString() + ", start:" + start + ", before:" + before + ", count:" + count);
+            //测试日志
+//            Log.anchor(s.toString() + ", start:" + start + ", before:" + before + ", count:" + count);
 //                   if(count == 2){
 //                       mStartEdit.setText(s+":");
 //                   }
@@ -202,6 +251,9 @@ public class MainActivity extends Activity implements View.OnClickListener
     };
 
 
+    /**
+     * 结束时间的时间输入自动匹配器
+     */
     private TextWatcher iEndTextWatcher = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -229,7 +281,13 @@ public class MainActivity extends Activity implements View.OnClickListener
         }
     };
 
-    private String toShow(ArrayList<String> data) {
+    /**
+     * 将List转String
+     *
+     * @param data
+     * @return
+     */
+    private String toString(List<String> data) {
         StringBuffer buffer = new StringBuffer();
         for (int i = 0; i < data.size(); i++) {
             String str = data.get(i);
