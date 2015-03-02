@@ -3,8 +3,12 @@
   <component name="AndroidConfiguredLogFilters">
     <filters>
       <filter>
-        <option name="name" value="app: org.lee.android.app.JanbanMaker" />
-        <option name="packageNamePattern" value="org.lee.android.app.JanbanMaker" />
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="TAG" />
+        <option name="name" value="TAG" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
       </filter>
       <filter>
         <option name="name" value="app: com.google.android.gms.analytics.samples.mobileplayground" />
@@ -13,6 +17,38 @@
       <filter>
         <option name="name" value="app: com.google.android.gms.samples.ads" />
         <option name="packageNamePattern" value="com.google.android.gms.samples.ads" />
+      </filter>
+      <filter>
+        <option name="name" value="app: org.lee.android.app.adworld" />
+        <option name="packageNamePattern" value="org.lee.android.app.adworld" />
+      </filter>
+      <filter>
+        <option name="name" value="app: org.lee.android.adonlyone" />
+        <option name="packageNamePattern" value="org.lee.android.adonlyone" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="app: com.abooc.googledoudles" />
+        <option name="packageNamePattern" value="com.abooc.googledoudles" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="app: org.lee.android.doodles" />
+        <option name="packageNamePattern" value="org.lee.android.doodles" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.example.android.effectivenavigation" />
+        <option name="packageNamePattern" value="com.example.android.effectivenavigation" />
+      </filter>
+      <filter>
+        <option name="name" value="app: org.lee.android.app.JanbanMaker" />
+        <option name="packageNamePattern" value="org.lee.android.app.JanbanMaker" />
       </filter>
     </filters>
   </component>
@@ -26,6 +62,61 @@
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/../AdWorld/res/layout/activity_about.xml">
+        <config>
+          <theme>@style/App.Theme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../AdWorld/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/App.Theme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../AdWorld/res/layout/notification_bar.xml">
+        <config>
+          <theme>@style/App.Theme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/date_layout.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_doodles_list.xml">
+        <config>
+          <theme>@style/App.Theme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_doodles_list_item.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_pager.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_today.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/messageview.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Dialog.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/layout/year_item.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/../Google Doodles/res/menu/activity_main.xml">
+        <config>
+          <theme>@style/App.Theme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/activity_about.xml">
         <config>
           <theme>@android:style/Theme.Holo.Light</theme>
@@ -63,7 +154,54 @@
     <favorites_list name="org.lee.android.app.GoldFarmer" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="3525">
+              <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+              <folding>
+                <element signature="e#3244#3253#0" expanded="true" />
+                <element signature="e#4582#4863#0" expanded="true" />
+                <element signature="e#4856#4857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentHandlerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/FragmentHandlerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="1965">
+              <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodayFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/TodayFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1245">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationDrawerFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/NavigationDrawerFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21256039" vertical-offset="2448" max-vertical-offset="5040">
+              <caret line="247" column="9" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
+              <folding>
+                <element signature="method#setUpDrawerMenu#0;class#NavigationDrawerFragment#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -72,7 +210,7 @@
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$USER_HOME$/Documents/Abooc/abooc.android.keystore2.jks" />
-    <option name="KEY_ALIAS" value="gold farmer" />
+    <option name="KEY_ALIAS" value="Ad Only One" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="GradleLocalSettings">
@@ -85,33 +223,62 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/line_h_gray.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/res/menu/menu.xml" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/AboutActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/xml/globle_tracker.xml" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/AnalyticsSampleApp.java" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/res/xml/global_tracker.xml" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/res/xml/ecommerce_tracker.xml" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/AndroidManifest.xml" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/res/values/styles.xml" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/MobilePlayground.java" />
-        <option value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/admob/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_about.xml" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/A.java" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/AppApplication.java" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/AppFunction.java" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/JiabanCalculator.java" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/TimeCalculator.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/drawable/tag_item_selector.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/search.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/SearchFragment.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/spinner_dropdown_item.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/date_layout.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/TabsAdapter.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/messageview.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/menu/global.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/navigation_list_item.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/MessageView.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/activity/AboutDoodlesActivity.java" />
+        <option value="$USER_HOME$/Downloads/EffectiveNavigation/res/layout/activity_collection_demo.xml" />
+        <option value="$USER_HOME$/Downloads/EffectiveNavigation/res/layout/fragment_collection_object.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/ApiClient.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/common.colors.xml" />
+        <option value="$USER_HOME$/Downloads/EffectiveNavigation/src/com/example/android/effectivenavigation/CollectionDemoActivity.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/drawer_menu_item.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/assets/data/years.json" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/strings.arrays.years.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/fragment_pager.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/DoodleAdapter.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/fragment_doodles_list.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/year_item.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/arrays.years.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/color/color_clickable_white_gray.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/color/color_clickable_black_gray_white.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/fragment_today.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/AppApplication.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/x.x.x.release.build.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/values/strings.preferences.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/PreferencesKeys.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/AboutUsActivity.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/xml/settings.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/fragment_categorys.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/DoodlesListFragment.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/fragment_doodles_list_item.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/CategorysFragment.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/res/layout/fragment_navigation_drawer.xml" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/PagerFragment.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/NavigationDrawerFragment.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/FragmentHandlerAdapter.java" />
+        <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/TodayFragment.java" />
         <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/AboutActivity.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="38" />
@@ -145,13 +312,10 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,6 +336,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,17 +352,17 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="org.lee.android.app.GoldFarmer" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/EffectiveNavigation" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.3968637" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="034b5bbb437dfe39" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Android_Wear_Round_by_Google" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dayu/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/res/xml/global_tracker.xml" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dayu/Git/Abooc/Google Doodles/src/org/lee/android/doodles/fragment/PagerFragment.java" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
@@ -203,21 +370,73 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="org.lee.android.app.goldfarmer" />
-    <property name="ExportedModule" value="org.lee.android.app.GoldFarmer" />
-    <property name="ExportedApkPath" value="$PROJECT_DIR$/GoldFarmer-v1.1.50204.apk" />
-    <property name="AndroidRunProguardForReleaseBuild" value="true" />
-    <property name="AndroidProguardConfigPaths" value="$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools/proguard/proguard-android.txt:/Users/dayu/git/Abooc/org.lee.android.app.GoldenFarmer/proguard-project.txt" />
+    <property name="ExportedModule" value="Ad Only one" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/../Ad Only one/Ad Only one v0.1.0.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="AndroidProguardConfigPaths" value="$PROJECT_DIR$/../AdWorld/proguard-project.txt" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="191" />
     <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.lee.android.doodles.properties" />
+      <recent name="org.lee.android.doodles.fragment" />
+      <recent name="org.lee.android.doodles.activity" />
+      <recent name="org.lee.android.adonlyone" />
+      <recent name="org.lee.android.app.adworld" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res" />
-      <recent name="$PROJECT_DIR$/res/layout" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/drawable-v1" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/xml" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/drawable-xxhdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/../Google Doodles/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/../AdWorld/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/../AdWorld/res/drawable-xhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.GoldenFarmer">
+    <configuration default="false" name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lee.android.test.Tester" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Google Doodles" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JavaTester" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.lee.java.test.Tester" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -365,8 +584,8 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="analytics" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="analytics" />
+    <configuration default="false" name="Google Doodles" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Google Doodles" />
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
@@ -381,8 +600,8 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="false" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -409,11 +628,88 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="AdWorld" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="AdWorld" />
+      <option name="ACTIVITY_CLASS" value="org.lee.android.app.adworld.activity.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ad Only one" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Ad Only one" />
+      <option name="ACTIVITY_CLASS" value="org.lee.android.adonlyone.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EffectiveNavigation" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="EffectiveNavigation" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Android Application.GoldenFarmer" />
-      <item index="1" class="java.lang.String" itemvalue="Android Application.analytics" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.Google Doodles" />
       <item index="2" class="java.lang.String" itemvalue="Android Application.admob" />
+      <item index="3" class="java.lang.String" itemvalue="Android Application.AdWorld" />
+      <item index="4" class="java.lang.String" itemvalue="Android Application.Ad Only one" />
+      <item index="5" class="java.lang.String" itemvalue="Android Application.EffectiveNavigation" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Tester" />
+      <item index="7" class="java.lang.String" itemvalue="Application.JavaTester" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.JavaTester" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Tester" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -446,32 +742,32 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49848944" sideWeight="0.5808333" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49848944" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49848944" sideWeight="0.41916665" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49848944" sideWeight="0.57916665" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -491,331 +787,461 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/AndroidManifest.xml">
+    <entry file="jar://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/platforms/android-19/android.jar!/android/R.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="1.9516908" vertical-offset="19578" max-vertical-offset="30120">
+          <caret line="1387" column="32" selection-start-line="1387" selection-start-column="32" selection-end-line="1387" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/AnalyticsSampleApp.java">
+    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/os/Bundle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="990">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/MobilePlayground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/AppviewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="840">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="900">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="3225">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/line_h_gray.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12626262" vertical-offset="0" max-vertical-offset="594">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3836317" vertical-offset="75" max-vertical-offset="510">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.555555" vertical-offset="1071" max-vertical-offset="1665">
-          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30757096" vertical-offset="0" max-vertical-offset="634">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="11538" max-vertical-offset="79035">
-          <caret line="884" column="19" selection-start-line="884" selection-start-column="19" selection-end-line="884" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049261082" vertical-offset="0" max-vertical-offset="609">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.5741325" vertical-offset="25331" max-vertical-offset="25965">
+          <caret line="1750" column="31" selection-start-line="1750" selection-start-column="31" selection-end-line="1750" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/content/pm/PackageManager.java">
+    <entry file="file://$USER_HOME$/Documents/workspace/AndroidStudio/MeToo/lib.source/v4/android/support/v4/view/PagerTitleStrip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8647343" vertical-offset="19563" max-vertical-offset="47910">
-          <caret line="1373" column="32" selection-start-line="1373" selection-start-column="32" selection-end-line="1373" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.18454258" vertical-offset="303" max-vertical-offset="7230">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/res/xml/global_tracker.xml">
+    <entry file="file://$USER_HOME$/Downloads/EffectiveNavigation/src/com/example/android/effectivenavigation/CollectionDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100946374" vertical-offset="1406" max-vertical-offset="2130">
+          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-xxhdpi/ic_actionbar_background_green.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-xxhdpi/ic_actionbar_background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/drawer_menu_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4040404" vertical-offset="0" max-vertical-offset="594">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/values/common.colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32649842" vertical-offset="438" max-vertical-offset="1260">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/values/strings.arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14195584" vertical-offset="0" max-vertical-offset="634">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/res/xml/ecommerce_tracker.xml">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-v1/i_2012.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/widget/BaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="870">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14195584" vertical-offset="0" max-vertical-offset="7260">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable/ic_google_logo11w.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/DoodleAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6687697" vertical-offset="236" max-vertical-offset="900">
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-xxhdpi/ic_google_birthday.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_doodles_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25252524" vertical-offset="0" max-vertical-offset="594">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/workspace/AndroidStudio/MeToo/lib.source/v4/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52979064" vertical-offset="421" max-vertical-offset="42210">
+          <caret line="102" column="57" selection-start-line="102" selection-start-column="57" selection-end-line="102" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/values/arrays.years.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85804415" vertical-offset="161" max-vertical-offset="795">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/color/color_clickable_white_gray.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="634">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/color/color_clickable_black_gray_white.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21293375" vertical-offset="0" max-vertical-offset="634">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-hdpi/ic_tag_background.9.png">
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_today.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32828283" vertical-offset="0" max-vertical-offset="594">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#585#620#0" expanded="true" />
+            <element signature="e#650#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-hdpi/ic_edit_input_focus.9.png">
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/drawable-hdpi/ic_cancel.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/AppContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/AppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4830918" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/values/x.x.x.release.build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3236715" vertical-offset="474" max-vertical-offset="1095">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/values/strings.preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11829653" vertical-offset="0" max-vertical-offset="634">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/PreferencesKeys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09463722" vertical-offset="0" max-vertical-offset="634">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26025236" vertical-offset="0" max-vertical-offset="634">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/EcommerceFragment.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.096618354" vertical-offset="0" max-vertical-offset="2790">
-          <caret line="37" column="101" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/res/values/admob_iap_style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/res/values/wallet_styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23188406" vertical-offset="144" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/global_tracker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3785489" vertical-offset="0" max-vertical-offset="634">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09463722" vertical-offset="15" max-vertical-offset="675">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.5410628" vertical-offset="969" max-vertical-offset="1590">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/MobilePlayground.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/AboutUsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5031546" vertical-offset="161" max-vertical-offset="1635">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/AnalyticsSampleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11829653" vertical-offset="0" max-vertical-offset="660">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/AppviewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029968454" vertical-offset="131" max-vertical-offset="795">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/platforms/android-19/data/res/layout/simple_list_item_1.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65656567" vertical-offset="0" max-vertical-offset="594">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/admob/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.591133" vertical-offset="0" max-vertical-offset="609">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/admob/res/layout/activity_banner_xml.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05050505" vertical-offset="0" max-vertical-offset="594">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/admob/src/com/google/android/gms/samples/ads/BannerXmlActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="690">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/admob/src/com/google/android/gms/samples/ads/GoogleAdsSampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.100946374" vertical-offset="176" max-vertical-offset="810">
-          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/admob/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.096618354" vertical-offset="135" max-vertical-offset="810">
-          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.3548896" vertical-offset="0" max-vertical-offset="825">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/res/values/strings.xml">
+    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/preference/PreferenceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.14778325" vertical-offset="180" max-vertical-offset="1470">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state vertical-scroll-proportion="-1.1980677" vertical-offset="21234" max-vertical-offset="21855">
+          <caret line="1434" column="7" selection-start-line="1434" selection-start-column="7" selection-end-line="1434" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/EventFragment.java">
+    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/preference/PreferenceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1719243" vertical-offset="536" max-vertical-offset="1320">
-          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.33280757" vertical-offset="4709" max-vertical-offset="12165">
+          <caret line="367" column="35" selection-start-line="367" selection-start-column="18" selection-end-line="367" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_about.xml">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/properties/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12460568" vertical-offset="26" max-vertical-offset="1110">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#2277#2278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6214511" vertical-offset="296" max-vertical-offset="930">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_categorys.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1010101" vertical-offset="0" max-vertical-offset="594">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_pager.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9747475" vertical-offset="456" max-vertical-offset="1530">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.35353535" vertical-offset="0" max-vertical-offset="594">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/xml/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4022082" vertical-offset="0" max-vertical-offset="634">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#214#243#0" expanded="false" />
+            <element signature="e#272#293#0" expanded="false" />
+            <element signature="e#452#478#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/JiabanCalculator.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="3465">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="594">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_doodles_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7777777" vertical-offset="171" max-vertical-offset="765">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/fragment_navigation_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2222222" vertical-offset="801" max-vertical-offset="1395">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#474#509#0" expanded="true" />
+            <element signature="e#539#574#0" expanded="true" />
+            <element signature="e#602#635#0" expanded="true" />
+            <element signature="e#666#699#0" expanded="true" />
+            <element signature="e#1385#1409#0" expanded="true" />
+            <element signature="e#1475#1510#0" expanded="true" />
+            <element signature="e#1763#1787#0" expanded="true" />
+            <element signature="e#1853#1888#0" expanded="true" />
+            <element signature="e#2209#2244#0" expanded="true" />
+            <element signature="e#2563#2598#0" expanded="true" />
+            <element signature="e#2972#3007#0" expanded="true" />
+            <element signature="e#3329#3364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/PagerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33816424" vertical-offset="555" max-vertical-offset="1560">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#1491#1785#0" expanded="false" />
+            <element signature="e#1770#1771#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/TimeCalculator.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/CategorysFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18927445" vertical-offset="0" max-vertical-offset="1980">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.41062802" vertical-offset="15" max-vertical-offset="1380">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#1733#1739#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/AppApplication.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/DoodlesListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68611985" vertical-offset="0" max-vertical-offset="870">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.4731861" vertical-offset="795" max-vertical-offset="2355">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/view/KeyEvent.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/res/layout/year_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19085173" vertical-offset="1304" max-vertical-offset="42540">
-          <caret line="117" column="39" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.37878788" vertical-offset="0" max-vertical-offset="594">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="3525">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="e#3244#3253#0" expanded="true" />
+            <element signature="e#4582#4863#0" expanded="true" />
+            <element signature="e#4856#4857#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/adt-bundle-mac-x86_64-20140702/sdk/sources/android-19/android/widget/TextView.java">
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/FragmentHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26182964" vertical-offset="6884" max-vertical-offset="133455">
-          <caret line="606" column="35" selection-start-line="606" selection-start-column="35" selection-end-line="606" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="1965">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/AppFunction.java">
+    <entry file="file://$USER_HOME$/Documents/workspace/AndroidStudio/MeToo/lib.source/v4/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11829653" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5741325" vertical-offset="626" max-vertical-offset="1290">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="16128" max-vertical-offset="23880">
+          <caret line="1220" column="16" selection-start-line="1220" selection-start-column="16" selection-end-line="1220" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5504732" vertical-offset="3596" max-vertical-offset="4230">
-          <caret line="286" column="18" selection-start-line="286" selection-start-column="18" selection-end-line="286" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.16425121" vertical-offset="2058" max-vertical-offset="4215">
+          <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/TodayFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1245">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/NavigationDrawerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21256039" vertical-offset="2448" max-vertical-offset="5040">
+          <caret line="247" column="9" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
+          <folding>
+            <element signature="method#setUpDrawerMenu#0;class#NavigationDrawerFragment#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
@@ -847,11 +1273,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v7-appcompat</last-edited>
+          <last-edited>android-async-http-1.4.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3968637" />
               </list>
             </option>
           </splitter-proportions>
@@ -863,7 +1289,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3968637" />
               </list>
             </option>
           </splitter-proportions>
@@ -871,11 +1297,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>org.lee.android.app.GoldFarmer</last-edited>
+          <last-edited>EffectiveNavigation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3968637" />
               </list>
             </option>
           </splitter-proportions>
@@ -895,11 +1321,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>google-play-services</last-edited>
+          <last-edited>java-json</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3968637" />
               </list>
             </option>
           </splitter-proportions>

@@ -173,7 +173,6 @@ public class MainActivity extends Activity implements View.OnClickListener
      * 遍历时间记录缓存集合，进行计算
      */
     private void OK() {
-        AppFunction.hideInputMethod(this, getWindow().getDecorView());
         JiabanCalculator iCalculator = new JiabanCalculator();
 
         for (int i = 0; i < arrayList.size(); i++) {
