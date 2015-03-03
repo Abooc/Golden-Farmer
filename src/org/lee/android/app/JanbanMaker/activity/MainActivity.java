@@ -36,15 +36,17 @@ public class MainActivity extends Activity implements View.OnClickListener
         , View.OnTouchListener, TextView.OnEditorActionListener {
 
     private TextView mMessageText;
+    private TextView mTimeText;
     private TextView mShowText;
+    private EditText mStartDate;
     private EditText mStartEdit;
     private EditText mEndEdit;
-
-    private ArrayList<String> arrayList = new ArrayList<String>();
 
     private boolean removeOnStartText;
     private boolean removeOnEndText;
     private View mResultLayout;
+
+    private JiabanCalculator iCalculator = new JiabanCalculator();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -68,6 +70,8 @@ public class MainActivity extends Activity implements View.OnClickListener
     private void init() {
         mMessageText = (TextView) findViewById(R.id.Message);
         mShowText = (TextView) findViewById(R.id.Show);
+        mTimeText = (TextView) findViewById(R.id.Time);
+        mStartDate = (EditText) findViewById(R.id.StartDate);
         mStartEdit = (EditText) findViewById(R.id.Start);
         mEndEdit = (EditText) findViewById(R.id.End);
         findViewById(R.id.Add).setOnClickListener(this);
@@ -76,6 +80,31 @@ public class MainActivity extends Activity implements View.OnClickListener
         mEndEdit.setOnEditorActionListener(this);
         mStartEdit.addTextChangedListener(iStartTextWatcher);
         mEndEdit.addTextChangedListener(iEndTextWatcher);
+        mStartDate.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (s.length() == 2) {
+                    mStartDate.setText(s + "/");
+                    mStartDate.setSelection(s.length() + 1);
+                    return;
+                }
+                if (s.length() == 5) {
+                    mStartEdit.requestFocus();
+                    return;
+                }
+
+            }
+        });
 
         /** 除编辑框和按钮之外区域，设置Touch事件收起键盘 */
         findViewById(R.id.Content).setOnTouchListener(this);
@@ -103,7 +132,7 @@ public class MainActivity extends Activity implements View.OnClickListener
                 break;
             case R.id.Clear://清空当前操作记录，便于重新开始一个计算
                 mResultLayout.setVisibility(View.GONE);
-                arrayList.clear();
+                iCalculator.clear();
                 break;
             case R.id.About://跳转到关于页面
                 AboutActivity.launch(this);
@@ -155,17 +184,28 @@ public class MainActivity extends Activity implements View.OnClickListener
      * @return
      */
     private boolean add() {
+        String startDate = mStartDate.getText().toString().trim();
         String start = mStartEdit.getText().toString().trim();
         String end = mEndEdit.getText().toString().trim();
-        if (TextUtils.isEmpty(start) || TextUtils.isEmpty(end)) {
-            Toast.show("开始和结束时间必须填写！");
+        if (TextUtils.isEmpty(startDate)){
+            mStartDate.requestFocus();
+            Toast.show("日期必须填写！");
+            return false;
+        }if (TextUtils.isEmpty(start)){
+            mStartEdit.requestFocus();
+            Toast.show("开始时间必须填写！");
+            return false;
+        }if (TextUtils.isEmpty(end)){
+            mEndEdit.requestFocus();
+            Toast.show("结束时间必须填写！");
             return false;
         }
-        arrayList.add(start + ">" + end);
 
-        mEndEdit.setText(null);
+        iCalculator.add(startDate, start, end);
+
+        mStartDate.requestFocus();
         mStartEdit.setText(null);
-        mStartEdit.requestFocus();
+        mEndEdit.setText(null);
         return true;
     }
 
@@ -173,18 +213,13 @@ public class MainActivity extends Activity implements View.OnClickListener
      * 遍历时间记录缓存集合，进行计算
      */
     private void OK() {
-        JiabanCalculator iCalculator = new JiabanCalculator();
-
-        for (int i = 0; i < arrayList.size(); i++) {
-            String[] time = arrayList.get(i).split(">");
-
-            iCalculator.add(time[0], time[1]);
-
-        }
         iCalculator.calculate();
-        String ss = iCalculator.result();
+        float hours = iCalculator.result();
+        String result = "有效加班总时间(单位小时):" + hours;
+
         TextView Show2 = (TextView) findViewById(R.id.Show2);
-        Show2.setText(ss);
+        Show2.setText(result);
+        mTimeText.setText("(总" + hours + "小时)");
 
         String show = iCalculator.toShow();
         mShowText.setText(show);

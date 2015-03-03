@@ -15,9 +15,9 @@ public class TimeCalculator {
 	public static void main(String[] args) {
 
 		JiabanCalculator iCalculator = new JiabanCalculator();
-		iCalculator.add("18:18:03", "21:58:28");
-		iCalculator.add("18:27:45", "22:06:25");
-		iCalculator.add("18:50:03", "22:06:18");
+		iCalculator.add("09/12", "18:18:03", "21:58:28");
+		iCalculator.add("09/13", "18:27:45", "22:06:25");
+		iCalculator.add("09/14", "18:50:03", "22:06:18");
 
 		iCalculator.calculate();
 		iCalculator.result();

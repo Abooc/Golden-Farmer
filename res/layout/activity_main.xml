@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:fillViewport="true">
+    android:layout_height="fill_parent">
 
     <LinearLayout
-        android:id="@+id/Content"
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:animateLayoutChanges="true">
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="?android:actionBarSize"
+            android:gravity="right|center_vertical"
+            android:animateLayoutChanges="true">
+
+            <EditText
+                android:id="@+id/StartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="09/12"
+                android:textSize="24sp"
+                android:maxLength="5"
+                android:inputType="number"
+                android:imeOptions="actionNext" />
+
+
+            <TextView
+                android:id="@+id/Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                android:hint="(总0小时)"
+                android:textStyle="italic"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:inputType="number"
+                android:imeOptions="actionNext" />
+
+            <TextView
+                android:id="@+id/RMB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="0.00元"
+                android:gravity="right"
+                android:textSize="24sp"
+                android:maxLength="4"
+                android:paddingRight="4dp"
+                android:inputType="number"
+                android:imeOptions="actionNext" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
@@ -23,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="上班时间09:00:00开始"
-                android:textSize="28sp"
+                android:textSize="26sp"
                 android:maxLength="8"
                 android:inputType="number"
                 android:imeOptions="actionNext" />
@@ -34,43 +76,53 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="下班时间24:00:00截止"
-                android:textSize="28sp"
+                android:textSize="26sp"
                 android:maxLength="8"
                 android:inputType="datetime"
                 android:imeOptions="actionDone" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/Rollback"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center"
-                    android:text="撤销"
-                    android:padding="16dp"
-                    android:background="@android:drawable/list_selector_background" />
-                <TextView
-                    android:layout_width="0.5dp"
-                    android:layout_height="wrap_content"
-                    android:background="#cccccc"/>
-
-                <TextView
-                    android:id="@+id/Add"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="添加记录"
-                    android:padding="16dp"
-                    android:background="@android:drawable/list_selector_background" />
-            </LinearLayout>
         </LinearLayout>
 
-        <include layout="@layout/line_h_gray" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Rollback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:clickable="true"
+                android:text="撤销"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:background="#F0EE3030" />
+
+            <TextView
+                android:id="@+id/Add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="添加记录"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:background="#5D6" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/line_h_gray" />
+
+    <ScrollView
+        android:id="@+id/Content"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
 
         <LinearLayout
             android:id="@+id/ResultLayout"
@@ -101,5 +153,5 @@
                 android:text="总共加班累计：0(/小时)"
                 android:padding="6dp" />
         </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</LinearLayout>

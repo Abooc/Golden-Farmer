@@ -43,8 +43,8 @@ public class JiabanCalculator {
 	 * @param start
 	 * @param end
 	 */
-	public void add(String start, String end) {
-		Recorder recorder = new Recorder(start, end);
+	public void add(String date, String start, String end) {
+		Recorder recorder = new Recorder(date, start, end);
 		mCache.add(recorder);
 	}
 
@@ -60,19 +60,22 @@ public class JiabanCalculator {
 		}
 	}
 
+    public boolean clear(){
+        mCache.iRecordertArray.clear();
+        return true;
+    }
+
 	/**
 	 * 输出总结果
 	 */
-	public String result() {
+	public float result() {
 		float hours = 0;
 		int length = mCache.count();
 		for (int i = 0; i < length; i++) {
 			Recorder recorder = mCache.getItem(i);
 			hours += recorder.iOvertime.total();
 		}
-        String result = "有效加班总时间(单位小时)：" + hours;
-		System.out.println(result);
-        return result;
+        return hours;
 	}
 
 	/**
@@ -84,12 +87,11 @@ public class JiabanCalculator {
 		int length = mCache.count();
 		for (int i = 0; i < length; i++) {
 			Recorder recorder = mCache.getItem(i);
-			buffer.append("S:" + recorder.start + "-E:" + recorder.end
-					+ ", 计：" + recorder.iOvertime.hour + "小时"
+			buffer.append(recorder.startDate + " " + recorder.start + "-" + recorder.end
+					+ "共:" + recorder.iOvertime.hour + "小时"
 					+ recorder.iOvertime.minute + "分钟	计"
 					+ recorder.iOvertime.total() + "小时\n");
 		}
-		System.out.println(buffer);
         return buffer.toString();
 	}
 
@@ -124,6 +126,7 @@ public class JiabanCalculator {
 	 *
 	 */
 	class Recorder {
+		public final String startDate;
 		public final String start;
 		public final String end;
 		/**
@@ -133,12 +136,14 @@ public class JiabanCalculator {
 
 		/**
 		 *
+		 * @param date
 		 * @param start
 		 *            加班开始时间
 		 * @param end
 		 *            下班的时间
 		 */
-		public Recorder(String start, String end) {
+		public Recorder(String date, String start, String end) {
+			this.startDate = date;
 			this.start = start;
 			this.end = end;
 		}
