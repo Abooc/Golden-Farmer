@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -14,7 +15,6 @@ import com.google.android.gms.analytics.Tracker;
 
 import org.lee.android.app.JanbanMaker.AppApplication;
 import org.lee.android.app.JanbanMaker.R;
-import org.lee.android.util.Toast;
 
 /**
  * Created by author:李瑞宇
@@ -65,7 +65,9 @@ public class AboutActivity extends Activity implements View.OnClickListener{
      */
     @Override
     public void onClick(View v) {
-        Toast.show("建设中...");
+        Uri uri = Uri.parse("http://fir.im/golder");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
     public static String getVersionName(Context context) {
