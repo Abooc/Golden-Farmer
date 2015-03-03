@@ -22,7 +22,6 @@ import org.lee.android.app.JanbanMaker.R;
 import org.lee.android.app.JanbanMaker.common.JiabanCalculator;
 import org.lee.android.util.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -38,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener
     private TextView mMessageText;
     private TextView mTimeText;
     private TextView mShowText;
-    private EditText mStartDate;
+    private EditText mStartDateEdit;
     private EditText mStartEdit;
     private EditText mEndEdit;
 
@@ -71,7 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener
         mMessageText = (TextView) findViewById(R.id.Message);
         mShowText = (TextView) findViewById(R.id.Show);
         mTimeText = (TextView) findViewById(R.id.Time);
-        mStartDate = (EditText) findViewById(R.id.StartDate);
+        mStartDateEdit = (EditText) findViewById(R.id.StartDate);
         mStartEdit = (EditText) findViewById(R.id.Start);
         mEndEdit = (EditText) findViewById(R.id.End);
         findViewById(R.id.Add).setOnClickListener(this);
@@ -80,31 +79,7 @@ public class MainActivity extends Activity implements View.OnClickListener
         mEndEdit.setOnEditorActionListener(this);
         mStartEdit.addTextChangedListener(iStartTextWatcher);
         mEndEdit.addTextChangedListener(iEndTextWatcher);
-        mStartDate.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                if (s.length() == 2) {
-                    mStartDate.setText(s + "/");
-                    mStartDate.setSelection(s.length() + 1);
-                    return;
-                }
-                if (s.length() == 5) {
-                    mStartEdit.requestFocus();
-                    return;
-                }
-
-            }
-        });
+        mStartDateEdit.addTextChangedListener(iTextWatcher);
 
         /** 除编辑框和按钮之外区域，设置Touch事件收起键盘 */
         findViewById(R.id.Content).setOnTouchListener(this);
@@ -184,11 +159,11 @@ public class MainActivity extends Activity implements View.OnClickListener
      * @return
      */
     private boolean add() {
-        String startDate = mStartDate.getText().toString().trim();
+        String startDate = mStartDateEdit.getText().toString().trim();
         String start = mStartEdit.getText().toString().trim();
         String end = mEndEdit.getText().toString().trim();
         if (TextUtils.isEmpty(startDate)){
-            mStartDate.requestFocus();
+            mStartDateEdit.requestFocus();
             Toast.show("日期必须填写！");
             return false;
         }if (TextUtils.isEmpty(start)){
@@ -203,7 +178,7 @@ public class MainActivity extends Activity implements View.OnClickListener
 
         iCalculator.add(startDate, start, end);
 
-        mStartDate.requestFocus();
+        mStartDateEdit.requestFocus();
         mStartEdit.setText(null);
         mEndEdit.setText(null);
         return true;
@@ -241,6 +216,44 @@ public class MainActivity extends Activity implements View.OnClickListener
         }
         return false;
     }
+
+    private boolean removeOnStartDateText;
+
+    /**
+     * 日期输入框智能自动匹配监听器
+     */
+    private TextWatcher iTextWatcher = new TextWatcher() {
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            removeOnStartDateText = after == 0 && s.toString().endsWith("/");
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if (removeOnStartDateText) {
+                removeOnStartDateText = false;
+                int length = s.length() - 1;
+                mStartDateEdit.setText(s.subSequence(0, length));
+                mStartDateEdit.setSelection(length);
+                return;
+            }
+            if (s.length() == 2) {
+                mStartDateEdit.setText(s + "/");
+                mStartDateEdit.setSelection(s.length() + 1);
+                return;
+            }
+            if (s.length() == 5) {
+                mStartEdit.requestFocus();
+                return;
+            }
+
+        }
+    };
 
     /**
      * 开始时间的时间输入自动匹配器

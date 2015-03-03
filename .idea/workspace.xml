@@ -159,24 +159,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2853" max-vertical-offset="4740">
-              <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.28985506" vertical-offset="2910" max-vertical-offset="4950">
+              <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JiabanCalculator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/JiabanCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38012618" vertical-offset="1064" max-vertical-offset="3540">
-              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-              <folding>
-                <element signature="e#2153#2163#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -264,9 +252,9 @@
         <option value="$PROJECT_DIR$/../Google Doodles/src/org/lee/android/doodles/fragment/PagerFragment.java" />
         <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/AboutActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/TimeCalculator.java" />
         <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/JiabanCalculator.java" />
+        <option value="$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -808,7 +796,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="22" width="1242" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -829,7 +817,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49848944" sideWeight="0.57916665" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1262,21 +1250,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2853" max-vertical-offset="4740">
-          <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/common/JiabanCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38012618" vertical-offset="1064" max-vertical-offset="3540">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.119873814" vertical-offset="389" max-vertical-offset="3540">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding>
             <element signature="e#2153#2163#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lee/android/app/JanbanMaker/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28985506" vertical-offset="2910" max-vertical-offset="4950">
+          <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
