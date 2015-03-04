@@ -71,6 +71,7 @@ public class MainActivity extends Activity implements View.OnClickListener
         mStartDateEdit = (EditText) findViewById(R.id.StartDate);
         mStartEdit = (EditText) findViewById(R.id.Start);
         mEndEdit = (EditText) findViewById(R.id.End);
+        findViewById(R.id.Rollback).setOnClickListener(this);
         findViewById(R.id.Add).setOnClickListener(this);
 
         mStartEdit.setOnEditorActionListener(this);
@@ -146,6 +147,13 @@ public class MainActivity extends Activity implements View.OnClickListener
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+            case R.id.Rollback:
+                int size = iCalculator.getRecords().size();
+                if (size == 0)
+                    return;
+                iCalculator.remove(size - 1);
+                OK();
+                break;
             case R.id.Add:
                 boolean isAdded = add();
                 if (isAdded)
@@ -247,7 +255,7 @@ public class MainActivity extends Activity implements View.OnClickListener
                 return;
             }
 
-            if(length == 0){
+            if (length == 0) {
                 char c = s.charAt(length);
                 if ((c < 48 || c > 49)) {
                     mStartDateEdit.setText(s.insert(0, "0").append("/"));
@@ -255,7 +263,7 @@ public class MainActivity extends Activity implements View.OnClickListener
                     return;
                 }
             }
-            if(length == 3){
+            if (length == 3) {
                 char c = s.charAt(length);
                 if ((c < 48 || c > 49)) {
                     mStartDateEdit.setText(s.insert(length, "0"));

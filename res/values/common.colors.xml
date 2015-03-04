@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- 常用颜色Drawable -->
+    <drawable name="WHITE">#fff</drawable>
+    <drawable name="BLACK">#000</drawable>
+    <drawable name="RED">#7f00</drawable>
+    <drawable name="BLUE">#770000ff</drawable>
+    <drawable name="GREEN">#7700ff00</drawable>
+    <drawable name="YELLOW">#77ffff00</drawable>
+    <drawable name="GRAY_DARK">#999</drawable>
+    <drawable name="GRAY_LIGHT">#CCC</drawable>
+    <drawable name="TRANSLUCENT">#28000000</drawable>
+    <drawable name="TRANSPARENT">#00000000</drawable>
+    <drawable name="TRANSLUCENT_50">#50000000</drawable>
+    <drawable name="TRANSLUCENT_A0">#a0000000</drawable>
+    <drawable name="TRANSLUCENT_D0">#d0000000</drawable>
+    <drawable name="TRANSLUCENT_WHITE_D0">#d0ffffff</drawable>
+
+    <!-- 常用颜色Color -->
+    <color name="WHITE">#fff</color>
+    <color name="BLACK">#000</color>
+    <color name="RED">#7f00</color>
+    <color name="BLUE">#770000ff</color>
+    <color name="GREEN">#7700ff00</color>
+    <color name="YELLOW">#77ffff00</color>
+    <color name="GRAY_DARK">#666</color>
+    <color name="GRAY_LIGHT">#999</color>
+    <color name="TRANSLUCENT">#28000000</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="pink">#80FF0000</color>
+    <color name="pink_light">#f7808b</color>
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="GREEN_ALPHA_90">#9000ff00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 默认可点击，可选择 -->
+    <drawable name="default_selected_background_selected">#30ffffff</drawable>
+    <drawable name="default_selected_background_press">#30666666</drawable>
+    <drawable name="default_selected_background_normal">#00000000</drawable>
+
+    <!-- 默认可点击，可选择 -->
+    <drawable name="default_button_background_selected">#f800AACC</drawable>
+    <drawable name="default_button_background_press">#f000AACC</drawable>
+    <drawable name="default_button_background_normal">#f000CFCC</drawable>
+    <drawable name="default_button_background_disable">#f0AACCDD</drawable>
+    
+    <!-- 消息列表的背景 -->
+    <drawable name="message_selected_background_normal">#FFF</drawable>
+
+
+    <!-- 标签文字 可点击，可选择 -->
+    <drawable name="tag_d_background_selected">#10000000</drawable>
+    <drawable name="tag_d_background_press">#10111111</drawable>
+
+    <drawable name="date_background">#ffC74B46</drawable>
+    <drawable name="date_background_blue">#33b5e5</drawable>
+
+    <drawable name="add_record_background_nor">#22AA44</drawable>
+    <drawable name="add_record_background_sel">#008822</drawable>
+
+    <drawable name="rollback_record_background_nor">#F0EE3030</drawable>
+    <drawable name="rollback_record_background_sel">#FABB2020</drawable>
+
+
+
+</resources>

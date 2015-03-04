@@ -48,6 +48,14 @@ public class JiabanCalculator {
 		mCache.add(recorder);
 	}
 
+    public Recorder remove(int location){
+        return mCache.iRecordertArray.remove(location);
+    }
+
+    public List<Recorder> getRecords(){
+        return mCache.iRecordertArray;
+    }
+
 	/**
 	 * 进行计算
 	 */

@@ -103,7 +103,7 @@
                     android:textColor="#FFF"
                     android:textStyle="bold"
                     android:padding="16dp"
-                    android:background="#F0EE3030" />
+                    android:background="@drawable/rollback_record_background" />
 
                 <TextView
                     android:id="@+id/Add"
@@ -116,7 +116,7 @@
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:padding="12dp"
-                    android:background="#5D6" />
+                    android:background="@drawable/add_record_background" />
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
