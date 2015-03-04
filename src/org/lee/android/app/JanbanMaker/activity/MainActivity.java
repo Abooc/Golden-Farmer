@@ -22,8 +22,6 @@ import org.lee.android.app.JanbanMaker.R;
 import org.lee.android.app.JanbanMaker.common.JiabanCalculator;
 import org.lee.android.util.Toast;
 
-import java.util.List;
-
 /**
  * Created by author:李瑞宇
  * email:allnet@live.cn
@@ -102,6 +100,9 @@ public class MainActivity extends Activity implements View.OnClickListener
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.Advanced://高级设置功能在建设中
+                Toast.show("建设中...");
+                break;
             case R.id.Share://分享功能增在建设中
                 Toast.show("建设中...");
                 break;
@@ -162,15 +163,17 @@ public class MainActivity extends Activity implements View.OnClickListener
         String startDate = mStartDateEdit.getText().toString().trim();
         String start = mStartEdit.getText().toString().trim();
         String end = mEndEdit.getText().toString().trim();
-        if (TextUtils.isEmpty(startDate)){
+        if (TextUtils.isEmpty(startDate)) {
             mStartDateEdit.requestFocus();
             Toast.show("日期必须填写！");
             return false;
-        }if (TextUtils.isEmpty(start)){
+        }
+        if (TextUtils.isEmpty(start)) {
             mStartEdit.requestFocus();
             Toast.show("开始时间必须填写！");
             return false;
-        }if (TextUtils.isEmpty(end)){
+        }
+        if (TextUtils.isEmpty(end)) {
             mEndEdit.requestFocus();
             Toast.show("结束时间必须填写！");
             return false;
@@ -212,7 +215,7 @@ public class MainActivity extends Activity implements View.OnClickListener
     public boolean onTouch(View v, MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
             AppFunction.hideInputMethod(this, mResultLayout);
-            return true;
+            return false;
         }
         return false;
     }
@@ -235,14 +238,33 @@ public class MainActivity extends Activity implements View.OnClickListener
 
         @Override
         public void afterTextChanged(Editable s) {
+            int length = s.length() - 1;
+            if (s == null || length < 0) return;
             if (removeOnStartDateText) {
                 removeOnStartDateText = false;
-                int length = s.length() - 1;
                 mStartDateEdit.setText(s.subSequence(0, length));
                 mStartDateEdit.setSelection(length);
                 return;
             }
-            if (s.length() == 2) {
+
+            if(length == 0){
+                char c = s.charAt(length);
+                if ((c < 48 || c > 49)) {
+                    mStartDateEdit.setText(s.insert(0, "0").append("/"));
+                    mStartDateEdit.setSelection(3);
+                    return;
+                }
+            }
+            if(length == 3){
+                char c = s.charAt(length);
+                if ((c < 48 || c > 49)) {
+                    mStartDateEdit.setText(s.insert(length, "0"));
+                    mStartDateEdit.setSelection(s.length());
+                    return;
+                }
+            }
+
+            if (s.length() == 2 && !"/".equals(s.charAt(length))) {
                 mStartDateEdit.setText(s + "/");
                 mStartDateEdit.setSelection(s.length() + 1);
                 return;
@@ -327,20 +349,5 @@ public class MainActivity extends Activity implements View.OnClickListener
 
         }
     };
-
-    /**
-     * 将List转String
-     *
-     * @param data
-     * @return
-     */
-    private String toString(List<String> data) {
-        StringBuffer buffer = new StringBuffer();
-        for (int i = 0; i < data.size(); i++) {
-            String str = data.get(i);
-            buffer.append("开始：" + str + "\n");
-        }
-        return buffer.toString();
-    }
 
 }

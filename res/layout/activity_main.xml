@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <LinearLayout
+    <FrameLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
@@ -15,17 +15,6 @@
             android:layout_height="?android:actionBarSize"
             android:gravity="right|center_vertical"
             android:animateLayoutChanges="true">
-
-            <EditText
-                android:id="@+id/StartDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="09/12"
-                android:textSize="24sp"
-                android:maxLength="5"
-                android:inputType="number"
-                android:imeOptions="actionNext" />
-
 
             <TextView
                 android:id="@+id/Time"
@@ -59,6 +48,23 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="设置日期和时间:"
+                android:textSize="10sp"
+                android:padding="4dp" />
+
+            <EditText
+                android:id="@+id/StartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="月/日"
+                android:textSize="24sp"
+                android:maxLength="5"
+                android:inputType="number"
+                android:imeOptions="actionNext" />
+
             <EditText
                 android:id="@+id/Start"
                 android:layout_width="fill_parent"
@@ -80,40 +86,40 @@
                 android:maxLength="8"
                 android:inputType="datetime"
                 android:imeOptions="actionDone" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Rollback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="撤销"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:padding="16dp"
+                    android:background="#F0EE3030" />
+
+                <TextView
+                    android:id="@+id/Add"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="添加记录"
+                    android:textColor="#FFF"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:background="#5D6" />
+            </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/Rollback"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="3"
-                android:gravity="center"
-                android:clickable="true"
-                android:text="撤销"
-                android:textColor="#FFF"
-                android:textStyle="bold"
-                android:padding="16dp"
-                android:background="#F0EE3030" />
-
-            <TextView
-                android:id="@+id/Add"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="添加记录"
-                android:textColor="#FFF"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:padding="12dp"
-                android:background="#5D6" />
-        </LinearLayout>
-    </LinearLayout>
+    </FrameLayout>
 
     <include layout="@layout/line_h_gray" />
 
