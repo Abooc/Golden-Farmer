@@ -50,7 +50,6 @@ public class MainActivity extends Activity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         Tracker t = ((AppApplication) getApplication()).getTracker(
                 AppApplication.TrackerName.APP_TRACKER);
         // Set screen name.

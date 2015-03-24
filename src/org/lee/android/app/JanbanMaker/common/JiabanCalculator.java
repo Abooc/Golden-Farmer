@@ -49,11 +49,11 @@ public class JiabanCalculator {
 	}
 
     public Recorder remove(int location){
-        return mCache.iRecordertArray.remove(location);
+        return mCache.iRecorderArray.remove(location);
     }
 
     public List<Recorder> getRecords(){
-        return mCache.iRecordertArray;
+        return mCache.iRecorderArray;
     }
 
 	/**
@@ -69,7 +69,7 @@ public class JiabanCalculator {
 	}
 
     public boolean clear(){
-        mCache.iRecordertArray.clear();
+        mCache.iRecorderArray.clear();
         return true;
     }
 
@@ -111,18 +111,18 @@ public class JiabanCalculator {
 	 *
 	 */
 	class Cache {
-		private List<Recorder> iRecordertArray = new ArrayList<Recorder>();
+		private List<Recorder> iRecorderArray = new ArrayList<Recorder>();
 
 		public void add(Recorder recorder) {
-			iRecordertArray.add(recorder);
+			iRecorderArray.add(recorder);
 		}
 
 		public Recorder getItem(int position) {
-			return iRecordertArray.get(position);
+			return iRecorderArray.get(position);
 		}
 
 		public int count() {
-			return iRecordertArray == null ? 0 : iRecordertArray.size();
+			return iRecorderArray == null ? 0 : iRecorderArray.size();
 		}
 	}
 
