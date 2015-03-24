@@ -14,7 +14,7 @@
         android:showAsAction="always" />
     <item
         android:id="@+id/Clear"
-        android:title="清除"
+        android:title="清零"
         android:showAsAction="never" />
 
     <item

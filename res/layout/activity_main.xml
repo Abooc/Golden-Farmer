@@ -33,7 +33,7 @@
                 android:id="@+id/RMB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="0.00元"
+                android:hint="估算:0.00元"
                 android:gravity="right"
                 android:textSize="24sp"
                 android:maxLength="4"

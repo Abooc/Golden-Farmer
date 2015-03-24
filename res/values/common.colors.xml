@@ -75,11 +75,11 @@
     <drawable name="date_background">#ffC74B46</drawable>
     <drawable name="date_background_blue">#33b5e5</drawable>
 
-    <drawable name="add_record_background_nor">#22AA44</drawable>
-    <drawable name="add_record_background_sel">#008822</drawable>
+    <drawable name="add_record_background_nor">#9022AA44</drawable>
+    <drawable name="add_record_background_sel">#90008822</drawable>
 
-    <drawable name="rollback_record_background_nor">#F0EE3030</drawable>
-    <drawable name="rollback_record_background_sel">#FABB2020</drawable>
+    <drawable name="rollback_record_background_nor">#90EE3030</drawable>
+    <drawable name="rollback_record_background_sel">#9ABB2020</drawable>
 
 
 

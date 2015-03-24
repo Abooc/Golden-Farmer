@@ -109,6 +109,7 @@ public class MainActivity extends Activity implements View.OnClickListener
             case R.id.Clear://清空当前操作记录，便于重新开始一个计算
                 mResultLayout.setVisibility(View.GONE);
                 iCalculator.clear();
+                mTimeText.setText("(总 0 小时)");
                 break;
             case R.id.About://跳转到关于页面
                 AboutActivity.launch(this);

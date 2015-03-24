@@ -24,11 +24,9 @@
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
-    <orderEntry type="module" module-name="appcompat" />
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.lee.android.util-v14.0218.1655.debug" level="application" />
     <orderEntry type="library" name="google-play-services" level="application" />
   </component>
 </module>
-
