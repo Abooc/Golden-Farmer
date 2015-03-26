@@ -17,6 +17,7 @@ proguard_logs/
 # Gradle files
 .gradle/
 build/
+.idea
 
 # Local configuration file (sdk path, etc)
 local.properties
