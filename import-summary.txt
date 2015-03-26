@@ -1,0 +1,867 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* GoldFarmer v1.2.50304.apk
+* LICENSE
+* README.md
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/.DS_Store
+* app/src/main/java/org/
+* app/src/main/java/org/.DS_Store
+* app/src/main/java/org/lee/
+* app/src/main/java/org/lee/.DS_Store
+* app/src/main/java/org/lee/android/
+* app/src/main/java/org/lee/android/.DS_Store
+* app/src/main/java/org/lee/android/app/
+* app/src/main/java/org/lee/android/app/.DS_Store
+* app/src/main/java/org/lee/android/app/JanbanMaker/
+* app/src/main/java/org/lee/android/app/JanbanMaker/.DS_Store
+* app/src/main/java/org/lee/android/app/JanbanMaker/AppApplication.java
+* app/src/main/java/org/lee/android/app/JanbanMaker/AppFunction.java
+* app/src/main/java/org/lee/android/app/JanbanMaker/activity/
+* app/src/main/java/org/lee/android/app/JanbanMaker/activity/AboutActivity.java
+* app/src/main/java/org/lee/android/app/JanbanMaker/activity/MainActivity.java
+* app/src/main/java/org/lee/android/app/JanbanMaker/common/
+* app/src/main/java/org/lee/android/app/JanbanMaker/common/JiabanCalculator.java
+* app/src/main/java/org/lee/android/app/JanbanMaker/common/TimeCalculator.java
+* app/src/main/res/
+* app/src/main/res/.DS_Store
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/add_record_background.xml
+* app/src/main/res/drawable/default_item_selector.xml
+* app/src/main/res/drawable/rollback_record_background.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_about.xml
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/line_h_gray.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/menu.xml
+* app/src/main/res/values/
+* app/src/main/res/values/common.colors.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/res/xml/
+* app/src/main/res/xml/global_tracker.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* ignore/
+* ignore/.DS_Store
+* ignore/Gold Farmer v1.0-decompile-zip/
+* ignore/Gold Farmer v1.0-decompile-zip/.DS_Store
+* ignore/Gold Farmer v1.0-decompile-zip/AndroidManifest.xml
+* ignore/Gold Farmer v1.0-decompile-zip/META-INF/
+* ignore/Gold Farmer v1.0-decompile-zip/META-INF/CERT.RSA
+* ignore/Gold Farmer v1.0-decompile-zip/META-INF/CERT.SF
+* ignore/Gold Farmer v1.0-decompile-zip/META-INF/MANIFEST.MF
+* ignore/Gold Farmer v1.0-decompile-zip/classes.dex
+* ignore/Gold Farmer v1.0-decompile-zip/res/
+* ignore/Gold Farmer v1.0-decompile-zip/res/.DS_Store
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-hdpi/
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-hdpi/ic_launcher.png
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-ldpi/
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-ldpi/ic_launcher.png
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-mdpi/
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-mdpi/ic_launcher.png
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-xhdpi/
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-xhdpi/ic_launcher.png
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-xxhdpi/
+* ignore/Gold Farmer v1.0-decompile-zip/res/drawable-xxhdpi/ic_launcher.png
+* ignore/Gold Farmer v1.0-decompile-zip/res/layout/
+* ignore/Gold Farmer v1.0-decompile-zip/res/layout/main.xml
+* ignore/Gold Farmer v1.0-decompile-zip/res/menu/
+* ignore/Gold Farmer v1.0-decompile-zip/res/menu/menu.xml
+* ignore/Gold Farmer v1.0-decompile-zip/resources.arsc
+* ignore/Gold Farmer v1.0.apk
+* ignore/Gold Farmer v1.0.rar
+* ignore/GoldFarmer-v1.1.50204.apk
+* ignore/GoldFarmer-v1.1.50204.zip
+* ignore/GoldFarmer-v1.1.50204/
+* ignore/GoldFarmer-v1.1.50204/.DS_Store
+* ignore/GoldFarmer-v1.1.50204/AndroidManifest.xml
+* ignore/GoldFarmer-v1.1.50204/META-INF/
+* ignore/GoldFarmer-v1.1.50204/META-INF/CERT.RSA
+* ignore/GoldFarmer-v1.1.50204/META-INF/CERT.SF
+* ignore/GoldFarmer-v1.1.50204/META-INF/MANIFEST.MF
+* ignore/GoldFarmer-v1.1.50204/classes.dex
+* ignore/GoldFarmer-v1.1.50204/drawable-xhdpi/
+* ignore/GoldFarmer-v1.1.50204/drawable-xhdpi/ic_launcher.png
+* ignore/GoldFarmer-v1.1.50204/drawable-xxhdpi/
+* ignore/GoldFarmer-v1.1.50204/drawable-xxhdpi/ic_launcher.png
+* ignore/GoldFarmer-v1.1.50204/layout/
+* ignore/GoldFarmer-v1.1.50204/layout/activity_main.xml
+* ignore/GoldFarmer-v1.1.50204/layout/line_h_gray.xml
+* ignore/GoldFarmer-v1.1.50204/menu/
+* ignore/GoldFarmer-v1.1.50204/menu/menu.xml
+* ignore/GoldFarmer-v1.1.50204/res/
+* ignore/GoldFarmer-v1.1.50204/res/drawable-xhdpi-v4/
+* ignore/GoldFarmer-v1.1.50204/res/drawable-xhdpi-v4/ic_launcher.png
+* ignore/GoldFarmer-v1.1.50204/res/drawable-xxhdpi-v4/
+* ignore/GoldFarmer-v1.1.50204/res/drawable-xxhdpi-v4/ic_launcher.png
+* ignore/GoldFarmer-v1.1.50204/res/layout/
+* ignore/GoldFarmer-v1.1.50204/res/layout/activity_main.xml
+* ignore/GoldFarmer-v1.1.50204/res/layout/line_h_gray.xml
+* ignore/GoldFarmer-v1.1.50204/res/menu/
+* ignore/GoldFarmer-v1.1.50204/res/menu/menu.xml
+* ignore/GoldFarmer-v1.1.50204/resources.arsc
+* ignore/GoldFarmer-v1.1.50204/values/
+* ignore/GoldFarmer-v1.1.50204/values/strings.xml
+* ignore/rar/
+* ignore/rar/.DS_Store
+* ignore/rar/Gold Farmer v1.0/
+* ignore/rar/Gold Farmer v1.0/.DS_Store
+* ignore/rar/Gold Farmer v1.0/AndroidManifest.xml
+* ignore/rar/Gold Farmer v1.0/META-INF/
+* ignore/rar/Gold Farmer v1.0/META-INF/CERT.RSA
+* ignore/rar/Gold Farmer v1.0/META-INF/CERT.SF
+* ignore/rar/Gold Farmer v1.0/META-INF/MANIFEST.MF
+* ignore/rar/Gold Farmer v1.0/classes.dex
+* ignore/rar/Gold Farmer v1.0/res/
+* ignore/rar/Gold Farmer v1.0/res/drawable-hdpi/
+* ignore/rar/Gold Farmer v1.0/res/drawable-hdpi/ic_launcher.png
+* ignore/rar/Gold Farmer v1.0/res/drawable-ldpi/
+* ignore/rar/Gold Farmer v1.0/res/drawable-ldpi/ic_launcher.png
+* ignore/rar/Gold Farmer v1.0/res/drawable-mdpi/
+* ignore/rar/Gold Farmer v1.0/res/drawable-mdpi/ic_launcher.png
+* ignore/rar/Gold Farmer v1.0/res/drawable-xhdpi/
+* ignore/rar/Gold Farmer v1.0/res/drawable-xhdpi/ic_launcher.png
+* ignore/rar/Gold Farmer v1.0/res/drawable-xxhdpi/
+* ignore/rar/Gold Farmer v1.0/res/drawable-xxhdpi/ic_launcher.png
+* ignore/rar/Gold Farmer v1.0/res/layout/
+* ignore/rar/Gold Farmer v1.0/res/layout/main.xml
+* ignore/rar/Gold Farmer v1.0/res/menu/
+* ignore/rar/Gold Farmer v1.0/res/menu/menu.xml
+* ignore/rar/Gold Farmer v1.0/resources.arsc
+* out/
+* out/.DS_Store
+* out/production/
+* out/production/.DS_Store
+* out/production/Ad Only one/
+* out/production/Ad Only one/Ad Only one.apk
+* out/production/Ad Only one/com/
+* out/production/Ad Only one/com/google/
+* out/production/Ad Only one/com/google/android/
+* out/production/Ad Only one/com/google/android/gms/
+* out/production/Ad Only one/com/google/android/gms/BuildConfig.class
+* out/production/Ad Only one/com/google/android/gms/R$attr.class
+* out/production/Ad Only one/com/google/android/gms/R$color.class
+* out/production/Ad Only one/com/google/android/gms/R$drawable.class
+* out/production/Ad Only one/com/google/android/gms/R$id.class
+* out/production/Ad Only one/com/google/android/gms/R$integer.class
+* out/production/Ad Only one/com/google/android/gms/R$raw.class
+* out/production/Ad Only one/com/google/android/gms/R$string.class
+* out/production/Ad Only one/com/google/android/gms/R$style.class
+* out/production/Ad Only one/com/google/android/gms/R$styleable.class
+* out/production/Ad Only one/com/google/android/gms/R.class
+* out/production/Ad Only one/org/
+* out/production/Ad Only one/org/lee/
+* out/production/Ad Only one/org/lee/android/
+* out/production/Ad Only one/org/lee/android/adonlyone/
+* out/production/Ad Only one/org/lee/android/adonlyone/BuildConfig.class
+* out/production/Ad Only one/org/lee/android/adonlyone/MainActivity$1.class
+* out/production/Ad Only one/org/lee/android/adonlyone/MainActivity.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$attr.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$color.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$drawable.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$id.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$integer.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$layout.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$raw.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$string.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$style.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R$styleable.class
+* out/production/Ad Only one/org/lee/android/adonlyone/R.class
+* out/production/Ad Only one/org/lee/android/adonlyone/ToastAdListener.class
+* out/production/AdWorld/
+* out/production/AdWorld/AdWorld.apk
+* out/production/AdWorld/com/
+* out/production/AdWorld/com/google/
+* out/production/AdWorld/com/google/android/
+* out/production/AdWorld/com/google/android/gms/
+* out/production/AdWorld/com/google/android/gms/BuildConfig.class
+* out/production/AdWorld/com/google/android/gms/R$attr.class
+* out/production/AdWorld/com/google/android/gms/R$color.class
+* out/production/AdWorld/com/google/android/gms/R$drawable.class
+* out/production/AdWorld/com/google/android/gms/R$id.class
+* out/production/AdWorld/com/google/android/gms/R$integer.class
+* out/production/AdWorld/com/google/android/gms/R$raw.class
+* out/production/AdWorld/com/google/android/gms/R$string.class
+* out/production/AdWorld/com/google/android/gms/R$style.class
+* out/production/AdWorld/com/google/android/gms/R$styleable.class
+* out/production/AdWorld/com/google/android/gms/R.class
+* out/production/AdWorld/drawable-hdpi/
+* out/production/AdWorld/drawable-hdpi/ic_launcher.png
+* out/production/AdWorld/drawable-mdpi/
+* out/production/AdWorld/drawable-mdpi/ic_launcher.png
+* out/production/AdWorld/drawable-xhdpi/
+* out/production/AdWorld/drawable-xhdpi/ic_actionbar_background.png
+* out/production/AdWorld/drawable-xhdpi/ic_clear.png
+* out/production/AdWorld/drawable-xhdpi/ic_launcher.png
+* out/production/AdWorld/drawable-xxhdpi/
+* out/production/AdWorld/drawable-xxhdpi/i_lvyou.png
+* out/production/AdWorld/drawable-xxhdpi/ic_help.png
+* out/production/AdWorld/drawable-xxhdpi/ic_launcher.png
+* out/production/AdWorld/drawable-xxhdpi/ic_official_img.png
+* out/production/AdWorld/drawable-xxhdpi/ic_play_128.png
+* out/production/AdWorld/drawable-xxhdpi/ic_update.png
+* out/production/AdWorld/drawable/
+* out/production/AdWorld/drawable/android_rectangle.xml
+* out/production/AdWorld/drawable/default_item_selector.xml
+* out/production/AdWorld/layout/
+* out/production/AdWorld/layout/activity_about.xml
+* out/production/AdWorld/layout/activity_main.xml
+* out/production/AdWorld/layout/line_h_gray.xml
+* out/production/AdWorld/layout/notification_bar.xml
+* out/production/AdWorld/menu/
+* out/production/AdWorld/menu/activity_main.xml
+* out/production/AdWorld/org/
+* out/production/AdWorld/org/lee/
+* out/production/AdWorld/org/lee/android/
+* out/production/AdWorld/org/lee/android/app/
+* out/production/AdWorld/org/lee/android/app/adworld/
+* out/production/AdWorld/org/lee/android/app/adworld/AppApplication.class
+* out/production/AdWorld/org/lee/android/app/adworld/AppFunction.class
+* out/production/AdWorld/org/lee/android/app/adworld/BuildConfig.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$attr.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$color.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$drawable.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$id.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$integer.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$layout.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$menu.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$raw.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$string.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$style.class
+* out/production/AdWorld/org/lee/android/app/adworld/R$styleable.class
+* out/production/AdWorld/org/lee/android/app/adworld/R.class
+* out/production/AdWorld/org/lee/android/app/adworld/ToastAdListener.class
+* out/production/AdWorld/org/lee/android/app/adworld/activity/
+* out/production/AdWorld/org/lee/android/app/adworld/activity/AboutActivity.class
+* out/production/AdWorld/org/lee/android/app/adworld/activity/MainActivity$1.class
+* out/production/AdWorld/org/lee/android/app/adworld/activity/MainActivity.class
+* out/production/AdWorld/values-v1/
+* out/production/AdWorld/values-v1/ad.strings.xml
+* out/production/AdWorld/values-v1/dimens.xml
+* out/production/AdWorld/values-v2/
+* out/production/AdWorld/values-v2/common.strings.xml
+* out/production/AdWorld/values/
+* out/production/AdWorld/values/common.colors.xml
+* out/production/AdWorld/values/strings.xml
+* out/production/AdWorld/values/strings_menu.xml
+* out/production/AdWorld/values/styles.xml
+* out/production/AdWorld/values/themes.xml
+* out/production/EffectiveNavigation/
+* out/production/EffectiveNavigation/EffectiveNavigation.apk
+* out/production/EffectiveNavigation/com/
+* out/production/EffectiveNavigation/com/example/
+* out/production/EffectiveNavigation/com/example/android/
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/BuildConfig.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/CollectionDemoActivity$DemoCollectionPagerAdapter.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/CollectionDemoActivity$DemoObjectFragment.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/CollectionDemoActivity.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity$1.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity$AppSectionsPagerAdapter.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity$DummySectionFragment.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity$LaunchpadSectionFragment$1.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity$LaunchpadSectionFragment$2.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity$LaunchpadSectionFragment.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/MainActivity.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/R$attr.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/R$drawable.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/R$id.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/R$layout.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/R$string.class
+* out/production/EffectiveNavigation/com/example/android/effectivenavigation/R.class
+* out/production/Google Doodles/
+* out/production/Google Doodles/Google Doodles.apk
+* out/production/Google Doodles/org/
+* out/production/Google Doodles/org/lee/
+* out/production/Google Doodles/org/lee/android/
+* out/production/Google Doodles/org/lee/android/demos/
+* out/production/Google Doodles/org/lee/android/demos/VolleyDemo$1.class
+* out/production/Google Doodles/org/lee/android/demos/VolleyDemo$2.class
+* out/production/Google Doodles/org/lee/android/demos/VolleyDemo.class
+* out/production/Google Doodles/org/lee/android/doodles/
+* out/production/Google Doodles/org/lee/android/doodles/ApiClient.class
+* out/production/Google Doodles/org/lee/android/doodles/AppApplication.class
+* out/production/Google Doodles/org/lee/android/doodles/AppContext.class
+* out/production/Google Doodles/org/lee/android/doodles/AppFunction.class
+* out/production/Google Doodles/org/lee/android/doodles/BuildConfig.class
+* out/production/Google Doodles/org/lee/android/doodles/DoubleClickBackExit.class
+* out/production/Google Doodles/org/lee/android/doodles/FragmentHandlerAdapter$TabInfo.class
+* out/production/Google Doodles/org/lee/android/doodles/FragmentHandlerAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/MessageView.class
+* out/production/Google Doodles/org/lee/android/doodles/R$array.class
+* out/production/Google Doodles/org/lee/android/doodles/R$attr.class
+* out/production/Google Doodles/org/lee/android/doodles/R$bool.class
+* out/production/Google Doodles/org/lee/android/doodles/R$color.class
+* out/production/Google Doodles/org/lee/android/doodles/R$dimen.class
+* out/production/Google Doodles/org/lee/android/doodles/R$drawable.class
+* out/production/Google Doodles/org/lee/android/doodles/R$id.class
+* out/production/Google Doodles/org/lee/android/doodles/R$integer.class
+* out/production/Google Doodles/org/lee/android/doodles/R$layout.class
+* out/production/Google Doodles/org/lee/android/doodles/R$menu.class
+* out/production/Google Doodles/org/lee/android/doodles/R$string.class
+* out/production/Google Doodles/org/lee/android/doodles/R$style.class
+* out/production/Google Doodles/org/lee/android/doodles/R$xml.class
+* out/production/Google Doodles/org/lee/android/doodles/R.class
+* out/production/Google Doodles/org/lee/android/doodles/TabsAdapter$TabInfo.class
+* out/production/Google Doodles/org/lee/android/doodles/TabsAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/
+* out/production/Google Doodles/org/lee/android/doodles/activity/AboutDoodlesActivity$1.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/AboutDoodlesActivity$2.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/AboutDoodlesActivity.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/MainActivity.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/WebViewActivity$1.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/WebViewActivity$2.class
+* out/production/Google Doodles/org/lee/android/doodles/activity/WebViewActivity.class
+* out/production/Google Doodles/org/lee/android/doodles/bean/
+* out/production/Google Doodles/org/lee/android/doodles/bean/Doodle.class
+* out/production/Google Doodles/org/lee/android/doodles/bean/Translations$Query.class
+* out/production/Google Doodles/org/lee/android/doodles/bean/Translations.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/
+* out/production/Google Doodles/org/lee/android/doodles/fragment/CategorysFragment$OnYearChangedListener.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/CategorysFragment$Year.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/CategorysFragment$YearAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/CategorysFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/DoodleAdapter$ViewHolder.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/DoodleAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/DoodlePagerFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/DoodlesListFragment$1.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/DoodlesListFragment$2.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/DoodlesListFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/FragmentA.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/FragmentB.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/NavigationDrawerFragment$1.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/NavigationDrawerFragment$2.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/NavigationDrawerFragment$DrawerMenuAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/NavigationDrawerFragment$NavigationDrawerCallbacks.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/NavigationDrawerFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/PagerFragment$1.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/PagerFragment$IFragmentPagerAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/PagerFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/SearchFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/TodayFragment$DoodlePagerAdapter.class
+* out/production/Google Doodles/org/lee/android/doodles/fragment/TodayFragment.class
+* out/production/Google Doodles/org/lee/android/doodles/properties/
+* out/production/Google Doodles/org/lee/android/doodles/properties/AboutUsActivity.class
+* out/production/Google Doodles/org/lee/android/doodles/properties/PreferencesKeys.class
+* out/production/Google Doodles/org/lee/android/doodles/properties/SettingsActivity$1.class
+* out/production/Google Doodles/org/lee/android/doodles/properties/SettingsActivity.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/
+* out/production/Google Doodles/org/lee/android/doodles/volley/FileUtils$PathStatus.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/FileUtils.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/HttpHandler.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/VolleyLoader$1.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/VolleyLoader$BitmapCache$1.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/VolleyLoader$BitmapCache.class
+* out/production/Google Doodles/org/lee/android/doodles/volley/VolleyLoader.class
+* out/production/Google Doodles/org/lee/android/test/
+* out/production/Google Doodles/org/lee/android/test/Tester.class
+* out/production/JavaTest/
+* out/production/JavaTest/org/
+* out/production/JavaTest/org/lee/
+* out/production/JavaTest/org/lee/java/
+* out/production/JavaTest/org/lee/java/test/
+* out/production/JavaTest/org/lee/java/test/Tester.class
+* out/production/JavaTest/org/lee/java/test/Translations$Query.class
+* out/production/JavaTest/org/lee/java/test/Translations.class
+* out/production/TrivialDrive/
+* out/production/TrivialDrive/TrivialDrive.apk
+* out/production/TrivialDrive/com/
+* out/production/TrivialDrive/com/android/
+* out/production/TrivialDrive/com/android/vending/
+* out/production/TrivialDrive/com/android/vending/billing/
+* out/production/TrivialDrive/com/android/vending/billing/IInAppBillingService$Stub$Proxy.class
+* out/production/TrivialDrive/com/android/vending/billing/IInAppBillingService$Stub.class
+* out/production/TrivialDrive/com/android/vending/billing/IInAppBillingService.aidl
+* out/production/TrivialDrive/com/android/vending/billing/IInAppBillingService.class
+* out/production/TrivialDrive/com/example/
+* out/production/TrivialDrive/com/example/android/
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/MainActivity$1.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/MainActivity$2.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/MainActivity$3.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/MainActivity$4.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/MainActivity.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/Base64.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/Base64DecoderException.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabException.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$1.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$2$1.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$2.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$3$1.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$3$2.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$3.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$OnConsumeFinishedListener.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$OnConsumeMultiFinishedListener.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$OnIabPurchaseFinishedListener.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$OnIabSetupFinishedListener.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper$QueryInventoryFinishedListener.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabHelper.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/IabResult.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/Inventory.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/Purchase.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/Security.class
+* out/production/TrivialDrive/com/example/android/trivialdrivesample/util/SkuDetails.class
+* out/production/TrivialDrive/org/
+* out/production/TrivialDrive/org/lee/
+* out/production/TrivialDrive/org/lee/android/
+* out/production/TrivialDrive/org/lee/android/app/
+* out/production/TrivialDrive/org/lee/android/app/adworld/
+* out/production/TrivialDrive/org/lee/android/app/adworld/BuildConfig.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$attr.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$drawable.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$id.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$layout.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$menu.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$string.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R$style.class
+* out/production/TrivialDrive/org/lee/android/app/adworld/R.class
+* out/production/admob/
+* out/production/admob/admob.apk
+* out/production/admob/com/
+* out/production/admob/com/google/
+* out/production/admob/com/google/android/
+* out/production/admob/com/google/android/gms/
+* out/production/admob/com/google/android/gms/BuildConfig.class
+* out/production/admob/com/google/android/gms/R$attr.class
+* out/production/admob/com/google/android/gms/R$color.class
+* out/production/admob/com/google/android/gms/R$drawable.class
+* out/production/admob/com/google/android/gms/R$id.class
+* out/production/admob/com/google/android/gms/R$integer.class
+* out/production/admob/com/google/android/gms/R$raw.class
+* out/production/admob/com/google/android/gms/R$string.class
+* out/production/admob/com/google/android/gms/R$style.class
+* out/production/admob/com/google/android/gms/R$styleable.class
+* out/production/admob/com/google/android/gms/R.class
+* out/production/admob/com/google/android/gms/samples/
+* out/production/admob/com/google/android/gms/samples/ads/
+* out/production/admob/com/google/android/gms/samples/ads/BannerCodeActivity.class
+* out/production/admob/com/google/android/gms/samples/ads/BannerXmlActivity.class
+* out/production/admob/com/google/android/gms/samples/ads/BuildConfig.class
+* out/production/admob/com/google/android/gms/samples/ads/GoogleAdsSampleActivity$1.class
+* out/production/admob/com/google/android/gms/samples/ads/GoogleAdsSampleActivity$Sample.class
+* out/production/admob/com/google/android/gms/samples/ads/GoogleAdsSampleActivity.class
+* out/production/admob/com/google/android/gms/samples/ads/InterstitialActivity$1.class
+* out/production/admob/com/google/android/gms/samples/ads/InterstitialActivity.class
+* out/production/admob/com/google/android/gms/samples/ads/R$attr.class
+* out/production/admob/com/google/android/gms/samples/ads/R$color.class
+* out/production/admob/com/google/android/gms/samples/ads/R$dimen.class
+* out/production/admob/com/google/android/gms/samples/ads/R$drawable.class
+* out/production/admob/com/google/android/gms/samples/ads/R$id.class
+* out/production/admob/com/google/android/gms/samples/ads/R$integer.class
+* out/production/admob/com/google/android/gms/samples/ads/R$layout.class
+* out/production/admob/com/google/android/gms/samples/ads/R$raw.class
+* out/production/admob/com/google/android/gms/samples/ads/R$string.class
+* out/production/admob/com/google/android/gms/samples/ads/R$style.class
+* out/production/admob/com/google/android/gms/samples/ads/R$styleable.class
+* out/production/admob/com/google/android/gms/samples/ads/R.class
+* out/production/admob/com/google/android/gms/samples/ads/ToastAdListener.class
+* out/production/analytics/
+* out/production/analytics/analytics.apk
+* out/production/analytics/android/
+* out/production/analytics/android/support/
+* out/production/analytics/android/support/v7/
+* out/production/analytics/android/support/v7/appcompat/
+* out/production/analytics/android/support/v7/appcompat/BuildConfig.class
+* out/production/analytics/android/support/v7/appcompat/R$anim.class
+* out/production/analytics/android/support/v7/appcompat/R$attr.class
+* out/production/analytics/android/support/v7/appcompat/R$bool.class
+* out/production/analytics/android/support/v7/appcompat/R$color.class
+* out/production/analytics/android/support/v7/appcompat/R$dimen.class
+* out/production/analytics/android/support/v7/appcompat/R$drawable.class
+* out/production/analytics/android/support/v7/appcompat/R$id.class
+* out/production/analytics/android/support/v7/appcompat/R$integer.class
+* out/production/analytics/android/support/v7/appcompat/R$layout.class
+* out/production/analytics/android/support/v7/appcompat/R$string.class
+* out/production/analytics/android/support/v7/appcompat/R$style.class
+* out/production/analytics/android/support/v7/appcompat/R$styleable.class
+* out/production/analytics/android/support/v7/appcompat/R.class
+* out/production/analytics/com/
+* out/production/analytics/com/google/
+* out/production/analytics/com/google/android/
+* out/production/analytics/com/google/android/gms/
+* out/production/analytics/com/google/android/gms/BuildConfig.class
+* out/production/analytics/com/google/android/gms/R$attr.class
+* out/production/analytics/com/google/android/gms/R$color.class
+* out/production/analytics/com/google/android/gms/R$drawable.class
+* out/production/analytics/com/google/android/gms/R$id.class
+* out/production/analytics/com/google/android/gms/R$integer.class
+* out/production/analytics/com/google/android/gms/R$string.class
+* out/production/analytics/com/google/android/gms/R$style.class
+* out/production/analytics/com/google/android/gms/R$styleable.class
+* out/production/analytics/com/google/android/gms/R.class
+* out/production/analytics/com/google/android/gms/analytics/
+* out/production/analytics/com/google/android/gms/analytics/samples/
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/AnalyticsSampleApp$TrackerName.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/AnalyticsSampleApp.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/AppviewFragment$1.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/AppviewFragment$2.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/AppviewFragment.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/BuildConfig.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EcommerceFragment$1.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EcommerceFragment$2.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EcommerceFragment$3.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EcommerceFragment.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EventFragment$1.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EventFragment$2.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/EventFragment.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/ExceptionFragment$1.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/ExceptionFragment$2.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/ExceptionFragment.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/MobilePlayground$TabListener.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/MobilePlayground$UserInputException.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/MobilePlayground.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$anim.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$attr.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$bool.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$color.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$dimen.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$drawable.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$id.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$integer.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$layout.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$string.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$style.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$styleable.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R$xml.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/R.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/SocialFragment$1.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/SocialFragment$2.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/SocialFragment.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/TimingFragment$1.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/TimingFragment$2.class
+* out/production/analytics/com/google/android/gms/analytics/samples/mobileplayground/TimingFragment.class
+* out/production/google-play-services_lib/
+* out/production/google-play-services_lib/android/
+* out/production/google-play-services_lib/android/UnusedStub.class
+* out/production/google-play-services_lib/com/
+* out/production/google-play-services_lib/com/google/
+* out/production/google-play-services_lib/com/google/android/
+* out/production/google-play-services_lib/com/google/android/gms/
+* out/production/google-play-services_lib/com/google/android/gms/BuildConfig.class
+* out/production/google-play-services_lib/com/google/android/gms/R$attr.class
+* out/production/google-play-services_lib/com/google/android/gms/R$color.class
+* out/production/google-play-services_lib/com/google/android/gms/R$drawable.class
+* out/production/google-play-services_lib/com/google/android/gms/R$id.class
+* out/production/google-play-services_lib/com/google/android/gms/R$integer.class
+* out/production/google-play-services_lib/com/google/android/gms/R$raw.class
+* out/production/google-play-services_lib/com/google/android/gms/R$string.class
+* out/production/google-play-services_lib/com/google/android/gms/R$style.class
+* out/production/google-play-services_lib/com/google/android/gms/R$styleable.class
+* out/production/google-play-services_lib/com/google/android/gms/R.class
+* out/production/org.lee.android.app.GoldFarmer/
+* out/production/org.lee.android.app.GoldFarmer/drawable-hdpi/
+* out/production/org.lee.android.app.GoldFarmer/drawable-hdpi/ic_launcher.png
+* out/production/org.lee.android.app.GoldFarmer/drawable-mdpi/
+* out/production/org.lee.android.app.GoldFarmer/drawable-mdpi/ic_launcher.png
+* out/production/org.lee.android.app.GoldFarmer/drawable-xhdpi/
+* out/production/org.lee.android.app.GoldFarmer/drawable-xhdpi/ic_launcher.png
+* out/production/org.lee.android.app.GoldFarmer/drawable-xxhdpi/
+* out/production/org.lee.android.app.GoldFarmer/drawable-xxhdpi/ic_launcher.png
+* out/production/org.lee.android.app.GoldFarmer/drawable/
+* out/production/org.lee.android.app.GoldFarmer/drawable/add_record_background.xml
+* out/production/org.lee.android.app.GoldFarmer/drawable/default_item_selector.xml
+* out/production/org.lee.android.app.GoldFarmer/drawable/rollback_record_background.xml
+* out/production/org.lee.android.app.GoldFarmer/layout/
+* out/production/org.lee.android.app.GoldFarmer/layout/activity_about.xml
+* out/production/org.lee.android.app.GoldFarmer/layout/activity_main.xml
+* out/production/org.lee.android.app.GoldFarmer/layout/line_h_gray.xml
+* out/production/org.lee.android.app.GoldFarmer/menu/
+* out/production/org.lee.android.app.GoldFarmer/menu/menu.xml
+* out/production/org.lee.android.app.GoldFarmer/org.lee.android.app.GoldFarmer.apk
+* out/production/org.lee.android.app.GoldFarmer/org.lee.android.app.GoldFarmer.unaligned.apk
+* out/production/org.lee.android.app.GoldFarmer/org/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/AppApplication$TrackerName.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/AppApplication.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/AppFunction.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/BuildConfig.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$attr.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$color.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$drawable.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$id.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$layout.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$menu.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$string.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$style.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R$xml.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/R.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/activity/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/activity/AboutActivity.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/activity/MainActivity$1.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/activity/MainActivity$2.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/activity/MainActivity$3.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/activity/MainActivity.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/common/
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/common/JiabanCalculator$Cache.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/common/JiabanCalculator$Overtime.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/common/JiabanCalculator$Recorder.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/common/JiabanCalculator.class
+* out/production/org.lee.android.app.GoldFarmer/org/lee/android/app/JanbanMaker/common/TimeCalculator.class
+* out/production/org.lee.android.app.GoldFarmer/values/
+* out/production/org.lee.android.app.GoldFarmer/values/common.colors.xml
+* out/production/org.lee.android.app.GoldFarmer/values/strings.xml
+* out/production/org.lee.android.app.GoldFarmer/values/styles.xml
+* out/production/org.lee.android.app.GoldFarmer/xml/
+* out/production/org.lee.android.app.GoldFarmer/xml/global_tracker.xml
+* out/production/sample/
+* out/production/sample/com/
+* out/production/sample/com/tencent/
+* out/production/sample/com/tencent/sample/
+* out/production/sample/com/tencent/sample/AddFriendParamsDialog$OnGetAddFriendParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/AddFriendParamsDialog.class
+* out/production/sample/com/tencent/sample/AppConstants$ShowMsgActivity.class
+* out/production/sample/com/tencent/sample/AppConstants.class
+* out/production/sample/com/tencent/sample/BaseApiListener$1.class
+* out/production/sample/com/tencent/sample/BaseApiListener.class
+* out/production/sample/com/tencent/sample/BaseUIListener$1.class
+* out/production/sample/com/tencent/sample/BaseUIListener.class
+* out/production/sample/com/tencent/sample/BindGroupParamsDialog$OnGetParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/BindGroupParamsDialog.class
+* out/production/sample/com/tencent/sample/BuildConfig.class
+* out/production/sample/com/tencent/sample/DataProviderActivity$1.class
+* out/production/sample/com/tencent/sample/DataProviderActivity$2.class
+* out/production/sample/com/tencent/sample/DataProviderActivity$3.class
+* out/production/sample/com/tencent/sample/DataProviderActivity.class
+* out/production/sample/com/tencent/sample/GetAskGiftParamsDialog$OnGetAskGiftParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetAskGiftParamsDialog.class
+* out/production/sample/com/tencent/sample/GetGradeParamsDialog$OnGetGradeParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetGradeParamsDialog.class
+* out/production/sample/com/tencent/sample/GetInviteParamsDialog$OnGetInviteParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetInviteParamsDialog.class
+* out/production/sample/com/tencent/sample/GetLbsParamsDialog$OnGetLbsParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetLbsParamsDialog.class
+* out/production/sample/com/tencent/sample/GetPkBragParamsDialog$OnGetPkBragParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetPkBragParamsDialog.class
+* out/production/sample/com/tencent/sample/GetReactiveParamsDialog$OnGetReactiveParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetReactiveParamsDialog.class
+* out/production/sample/com/tencent/sample/GetShareToQQParamsDialog$ShareToQQParamsListener.class
+* out/production/sample/com/tencent/sample/GetShareToQQParamsDialog.class
+* out/production/sample/com/tencent/sample/GetStoryParamsDialog$OnGetStoryParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetStoryParamsDialog.class
+* out/production/sample/com/tencent/sample/GetVoiceParamsDialog$OnGetVoiceParamsCompleteListener.class
+* out/production/sample/com/tencent/sample/GetVoiceParamsDialog.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$1.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$2$1.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$2.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$3.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$PhotoInfo.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$PhotoListAdapter$1.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$PhotoListAdapter$ViewHolder.class
+* out/production/sample/com/tencent/sample/PhotoListDialog$PhotoListAdapter.class
+* out/production/sample/com/tencent/sample/PhotoListDialog.class
+* out/production/sample/com/tencent/sample/R$anim.class
+* out/production/sample/com/tencent/sample/R$array.class
+* out/production/sample/com/tencent/sample/R$attr.class
+* out/production/sample/com/tencent/sample/R$color.class
+* out/production/sample/com/tencent/sample/R$dimen.class
+* out/production/sample/com/tencent/sample/R$drawable.class
+* out/production/sample/com/tencent/sample/R$id.class
+* out/production/sample/com/tencent/sample/R$layout.class
+* out/production/sample/com/tencent/sample/R$menu.class
+* out/production/sample/com/tencent/sample/R$string.class
+* out/production/sample/com/tencent/sample/R$style.class
+* out/production/sample/com/tencent/sample/R.class
+* out/production/sample/com/tencent/sample/ReturnActivity.class
+* out/production/sample/com/tencent/sample/Util$1.class
+* out/production/sample/com/tencent/sample/Util.class
+* out/production/sample/com/tencent/sample/activitys/
+* out/production/sample/com/tencent/sample/activitys/AccountInfoActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/AccountInfoActivity.class
+* out/production/sample/com/tencent/sample/activitys/AvatarActivity.class
+* out/production/sample/com/tencent/sample/activitys/BaseActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/BaseActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/BaseActivity.class
+* out/production/sample/com/tencent/sample/activitys/DataProviderActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/DataProviderActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/DataProviderActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/DataProviderActivity.class
+* out/production/sample/com/tencent/sample/activitys/GameLogicActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/GameLogicActivity.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$1$1.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$4.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$BaseUiListener.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity$NewClickListener.class
+* out/production/sample/com/tencent/sample/activitys/MainActivity.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity$2$1.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity$OtherApiListener$1.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity$OtherApiListener.class
+* out/production/sample/com/tencent/sample/activitys/OtherApiActivity.class
+* out/production/sample/com/tencent/sample/activitys/QQDatalineActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QQDatalineActivity.class
+* out/production/sample/com/tencent/sample/activitys/QQFavoritesActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QQFavoritesActivity.class
+* out/production/sample/com/tencent/sample/activitys/QQGroupActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QQGroupActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/QQGroupActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/QQGroupActivity.class
+* out/production/sample/com/tencent/sample/activitys/QQShareActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QQShareActivity.class
+* out/production/sample/com/tencent/sample/activitys/QQTroopBarActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QQTroopBarActivity.class
+* out/production/sample/com/tencent/sample/activitys/QZoneShareActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QZoneShareActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/QZoneShareActivity.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$4.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$AlbumListListener$1.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$AlbumListListener.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$Holder.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$PhotoListListener.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$PicGridAdapter$1.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$PicGridAdapter.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$QzonePics$AlbumInfo.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$QzonePics.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity$QzonePicsFactory.class
+* out/production/sample/com/tencent/sample/activitys/QzonePicturesActivity.class
+* out/production/sample/com/tencent/sample/activitys/SharePrizeActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/SharePrizeActivity.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$4.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$5.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$6.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity$7.class
+* out/production/sample/com/tencent/sample/activitys/SocialApiActivity.class
+* out/production/sample/com/tencent/sample/activitys/SocialAppbarActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/SocialAppbarActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/SocialAppbarActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/SocialAppbarActivity$4.class
+* out/production/sample/com/tencent/sample/activitys/SocialAppbarActivity.class
+* out/production/sample/com/tencent/sample/activitys/TQQInfoActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/TQQInfoActivity$BaseUiListener.class
+* out/production/sample/com/tencent/sample/activitys/TQQInfoActivity$TQQApiListener$1.class
+* out/production/sample/com/tencent/sample/activitys/TQQInfoActivity$TQQApiListener.class
+* out/production/sample/com/tencent/sample/activitys/TQQInfoActivity.class
+* out/production/sample/com/tencent/sample/activitys/WPAActivity$1.class
+* out/production/sample/com/tencent/sample/activitys/WPAActivity$2.class
+* out/production/sample/com/tencent/sample/activitys/WPAActivity$3.class
+* out/production/sample/com/tencent/sample/activitys/WPAActivity$4.class
+* out/production/sample/com/tencent/sample/activitys/WPAActivity$WPAApiListener.class
+* out/production/sample/com/tencent/sample/activitys/WPAActivity.class
+* out/production/sample/com/tencent/sample/weiyun/
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity$1.class
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity$2$1.class
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity$2$2.class
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity$2$3$1.class
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity$2$3.class
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity$2.class
+* out/production/sample/com/tencent/sample/weiyun/FileListActivity.class
+* out/production/sample/com/tencent/sample/weiyun/FileListAdapter$ViewHolder.class
+* out/production/sample/com/tencent/sample/weiyun/FileListAdapter$lvButtonListener.class
+* out/production/sample/com/tencent/sample/weiyun/FileListAdapter.class
+* out/production/sample/com/tencent/sample/weiyun/IFileListAdapterItemClick.class
+* out/production/sample/com/tencent/sample/weiyun/IRecordListAdapterItemClick.class
+* out/production/sample/com/tencent/sample/weiyun/ImageViewDialog$1.class
+* out/production/sample/com/tencent/sample/weiyun/ImageViewDialog.class
+* out/production/sample/com/tencent/sample/weiyun/OperationSelectActivity$1.class
+* out/production/sample/com/tencent/sample/weiyun/OperationSelectActivity.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList$1.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList$2.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList$3.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList$4.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList$5$1.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList$5.class
+* out/production/sample/com/tencent/sample/weiyun/RecordList.class
+* out/production/sample/com/tencent/sample/weiyun/RecordListAdapter$1.class
+* out/production/sample/com/tencent/sample/weiyun/RecordListAdapter$2.class
+* out/production/sample/com/tencent/sample/weiyun/RecordListAdapter$3.class
+* out/production/sample/com/tencent/sample/weiyun/RecordListAdapter$RecordItem.class
+* out/production/sample/com/tencent/sample/weiyun/RecordListAdapter$ViewHolder.class
+* out/production/sample/com/tencent/sample/weiyun/RecordListAdapter.class
+* out/production/sample/com/tencent/sample/weiyun/RecordOperationActivity$1.class
+* out/production/sample/com/tencent/sample/weiyun/RecordOperationActivity$2.class
+* out/production/sample/com/tencent/sample/weiyun/RecordOperationActivity$3.class
+* out/production/sample/com/tencent/sample/weiyun/RecordOperationActivity$4.class
+* out/production/sample/com/tencent/sample/weiyun/RecordOperationActivity.class
+* out/production/sample/com/tencent/sample/weiyun/WeiyunMainActivity.class
+* out/production/sample/sample.apk
+* preview/
+* preview/.DS_Store
+* preview/1024x500.png
+* preview/device-2015-03-17-181418.png
+* preview/device-2015-03-17-181537.png
+* proguard-project.txt
+* proguard_logs/
+* proguard_logs/dump.txt
+* proguard_logs/mapping.txt
+* proguard_logs/seeds.txt
+* proguard_logs/usage.txt
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
