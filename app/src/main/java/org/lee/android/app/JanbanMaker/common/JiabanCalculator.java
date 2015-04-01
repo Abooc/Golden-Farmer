@@ -95,10 +95,10 @@ public class JiabanCalculator {
 		int length = mCache.count();
 		for (int i = 0; i < length; i++) {
 			Recorder recorder = mCache.getItem(i);
-			buffer.append(recorder.startDate + " " + recorder.start + "-" + recorder.end
-					+ "共:" + recorder.iOvertime.hour + "小时"
+			buffer.append("[" + recorder.startDate + "]" + recorder.start + "-" + recorder.end
+					+ "[" + recorder.iOvertime.hour + "小时"
 					+ recorder.iOvertime.minute + "分钟	计"
-					+ recorder.iOvertime.total() + "小时\n");
+					+ recorder.iOvertime.total() + "小时]\n");
 		}
         return buffer.toString();
 	}
@@ -114,7 +114,7 @@ public class JiabanCalculator {
 		private List<Recorder> iRecorderArray = new ArrayList<Recorder>();
 
 		public void add(Recorder recorder) {
-			iRecorderArray.add(recorder);
+			iRecorderArray.add(0, recorder);
 		}
 
 		public Recorder getItem(int position) {
@@ -156,6 +156,11 @@ public class JiabanCalculator {
 			this.end = end;
 		}
 
+		@Override
+		public String toString() {
+
+			return "[" + startDate + "]" + start + "-" + end;
+		}
 	}
 
 	/**

@@ -151,7 +151,9 @@ public class MainActivity extends Activity implements View.OnClickListener
                 int size = iCalculator.getRecords().size();
                 if (size == 0)
                     return;
+                String record = String.valueOf(iCalculator.getRecords().get(size - 1));
                 iCalculator.remove(size - 1);
+                Toast.show("已撤销" + record);
                 OK();
                 break;
             case R.id.Add:
@@ -257,7 +259,7 @@ public class MainActivity extends Activity implements View.OnClickListener
 
             if (length == 0) {
                 char c = s.charAt(length);
-                if ((c < 48 || c > 49)) {
+                if ((c < 48 || c > 49)) {//自动匹配月份
                     mStartDateEdit.setText(s.insert(0, "0").append("/"));
                     mStartDateEdit.setSelection(3);
                     return;
@@ -265,7 +267,7 @@ public class MainActivity extends Activity implements View.OnClickListener
             }
             if (length == 3) {
                 char c = s.charAt(length);
-                if ((c < 48 || c > 49)) {
+                if ((c < 48 || c > 51)) {//自动匹配日期
                     mStartDateEdit.setText(s.insert(length, "0"));
                     mStartDateEdit.setSelection(s.length());
                     return;
